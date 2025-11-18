@@ -18,7 +18,7 @@ export const manipulatives: Manipulative[] = [
   },
   {
     name: "Base-10 Blocks",
-    text: " Understand numbers better by using blocks for ones, tens, and hundreds. Count easily and see how multiplication and division work. Move the blocks around to show adding and taking away, making it easier to know what's happening with numbers",
+    text: " Understand numbers better by using blocks for ones, tens, and hundreds. Count easily and see how multiplication and division work. Move the blocks around to show adding and taking away, making it easier to know what's happening with numbers.",
     color: "#CAB9DB",
     innerColor: "#A98CC2",
     src: "/whatweofferpage/maths/base-10-block.png",
@@ -26,7 +26,7 @@ export const manipulatives: Manipulative[] = [
   },
   {
     name: "Tangram",
-    text: "The Tangram, an ancient Chinese puzzle, involves seven tans forming various shapes, it nurtures kids spatial awareness, geometry skills, and problem-solving, it also evolves to teach advanced concepts like ated comparison, fractions, and rates.",
+    text: "The Tangram, an ancient Chinese puzzle, involves seven tans forming various shapes. It nurtures kids' spatial awareness, geometry skills, and problem-solving, and it also evolves to teach advanced concepts like area, comparison, fractions, and rates.",
     color: "#A7E4F9",
     innerColor: "#6DD1F5",
     src: "/whatweofferpage/maths/tangram.png",

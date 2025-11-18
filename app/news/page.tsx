@@ -41,7 +41,7 @@ export default function News() {
         <div className="flex bg-[#FBBA42] translate-y-1/4 w-4/5 flex-col p-5 lg:p-12 justify-center items-center gap-8">
           <div className="flex flex-col text-lg gap-1 items-center">
             <h4 className="font-bold text-lg md:text-2xl lg:text-4xl">Join Our Community</h4>
-            <p className="text-sm md:text-base" >Sign up for our newsletter and get fresh articles, freebies, advice and more 3 times a week.</p>
+            <p className="text-sm md:text-base" >Sign up for our newsletter and get fresh articles, freebies, advice, and more 3 times a week.</p>
           </div>
           <div className="flex flex-col md:flex-row gap-2 lg:gap-4 justify-center lg:p-2 lg:px-16 w-full">
             <input type="text" placeholder="Full Name" className="flex-1 px-2 p-2 text-sm" />

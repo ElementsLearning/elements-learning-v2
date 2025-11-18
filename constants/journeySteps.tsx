@@ -15,7 +15,7 @@ export const journeySteps: JourneyStep[] = [
   {
     color: "#00A551",
     header: "2017-2019",
-    content: <p className="text-xs xs:text-sm md:text-xs lg:text-sm xl:text-base">Conducted formal training <br/>for private school while accumulating a vast knowledge base, laying the groundwork for its future endeavors.</p>,
+    content: <p className="text-xs xs:text-sm md:text-xs lg:text-sm xl:text-base">Conducted formal training <br/>for private schools while accumulating a vast knowledge base, laying the groundwork for its future endeavors.</p>,
     contentBelow: false
   },
   {

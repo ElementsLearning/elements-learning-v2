@@ -8,12 +8,12 @@ export const updates: Update[] = [
   {
     src: "/News&Updates/Updates/VistLab.png",
     title: "Visit to our Math Lab ",
-    content: "We recently had the pleasure of visiting our Math Lab at APS&C in DCI, and it was an engaging and enlightening experience for the students. The interactive environment captivated their interest, turning complex mathematical concepts into fun and understandable lessons. Through hands-on activities and practical demonstrations, students were able to explore math in a way that sparked their curiosity and enthusiasm",
+    content: "We recently had the pleasure of visiting our Math Lab at APS&C in DCI, and it was an engaging and enlightening experience for the students. The interactive environment captivated their interest, turning complex mathematical concepts into fun and understandable lessons. Through hands-on activities and practical demonstrations, students were able to explore math in a way that sparked their curiosity and enthusiasm.",
   },
   {
     src: "/News&Updates/Updates/MOUSigningSilverOaks.JPG",
     title: "MOU Signing Silver Oaks",
-    content: "Elements Learning and Silver Oaks Schools System had an MOU Signing Ceremony that marks the Establishment of 22 Math Labs and Teachers Training. It is a step toward academic excellence!",
+    content: "Elements Learning and Silver Oaks Schools System had an MOU Signing Ceremony that marked the Establishment of 22 Math Labs and Teacher Training. It is a step toward academic excellence!",
   },
   {
     src: "/News&Updates/Updates/APSMathTraining.jpg",
@@ -43,7 +43,7 @@ export const updates: Update[] = [
   {
     src: "/News&Updates/Updates/VisitMrsRector.jpg",
     title: "Visit of Mrs. Rector NUST to Our Premium Math Lab at APS-DCI",
-    content: "Mrs. Rector NUST visited our recently established Premium Maths Lab at APS-DCI, where she witnessed firsthand the transformative impact of this cutting-edge facility.During her visit, she explored the lab's high-quality resources and their implementation in enhancing the teaching and learning of mathematics. Mrs. Rector engaged with both teachers and students, observing the notable transformation in their interactions and understanding of mathematical concepts facilitated by the EL Maths Lab. She commended the innovative approach and its positive influence on students' learning experiences.",
+    content: "Mrs. Rector NUST visited our recently established Premium Maths Lab at APS-DCI, where she witnessed firsthand the transformative impact of this cutting-edge facility. During her visit, she explored the lab's high-quality resources and their implementation in enhancing the teaching and learning of mathematics. Mrs. Rector engaged with both teachers and students, observing the notable transformation in their interactions and understanding of mathematical concepts facilitated by the EL Maths Lab. She commended the innovative approach and its positive influence on students' learning experiences.",
 
 
   }

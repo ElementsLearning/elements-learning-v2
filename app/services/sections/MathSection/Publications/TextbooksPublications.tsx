@@ -13,7 +13,7 @@ export const TextbooksPublications = () => {
   const texts = {
     "OVERVIEW": <>
       <h3 className="text-left ttext-xs sm:text-sm md:text-base lg:text-lg xl:text-xl text-[#FBBA41] font-bold">Our textbooks are meticulously crafted to align with the Student Learning Outcomes (SLOs) provided by the single National Curriculum.</h3>
-      <p className="text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl text-left"> By incorporating best practices based on the CPA methodology, and innovative methods from educational theorists such as Jerome Bruner, Richard Skemp, Zoltán Pál Dienes, and Caleb Gattegno, our textbooks ensure a comprehensive and effective learning experience.</p>
+      <p className="text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl text-left"> By incorporating best practices based on the CPA methodology and innovative methods from educational theorists such as Jerome Bruner, Richard Skemp, Zoltán Pál Dienes, and Caleb Gattegno, our textbooks ensure a comprehensive and effective learning experience.</p>
     </>,
     "TEACHERS": <>
       <h3 className="text-left ttext-xs sm:text-sm md:text-base lg:text-lg xl:text-xl text-[#FBBA41] font-bold">Our Teacher Guides offer essential teaching strategies and classroom management tips, helping educators deliver engaging and effective lessons.</h3>
@@ -27,7 +27,7 @@ export const TextbooksPublications = () => {
       </div>
     </>,
     "STUDENTS": <>
-      <h3 className="text-left ttext-xs sm:text-sm md:text-base lg:text-lg xl:text-xl text-[#FBBA41] font-bold">Our Student Workbooks are designed to complement the Teacher Guides, providing students with practical excersises and activities that reinforce their learning.</h3>
+      <h3 className="text-left ttext-xs sm:text-sm md:text-base lg:text-lg xl:text-xl text-[#FBBA41] font-bold">Our Student Workbooks are designed to complement the Teacher Guides, providing students with practical exercises and activities that reinforce their learning.</h3>
       <div className="pl-12 md:pl-24 lg:pl-32 xl:pl-40">
         <BulletList contentClass="text-sm text-left md:text-base xl:text-lg"
         list={[

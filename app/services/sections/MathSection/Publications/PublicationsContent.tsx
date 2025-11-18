@@ -18,9 +18,9 @@ export const PublicationsContent = () => {
         <SlidingDiv direction={"top"} className="pl-8 xs:pl-10 md:pl-24 lg:pl-32 xl:pl-52 py-4">
           <BulletList contentClass="text-base md:text-lg xl:text-xl"
           list={[
-            {title: "Concrete", content: "Using physical maninpulatives and objects to explore Mathematical ideas."},
+            {title: "Concrete", content: "Using physical manipulatives and objects to explore Mathematical ideas."},
             {title: "Pictorial", content: "Transitioning to visual representations such as diagrams and models to further conceptual understanding."},
-            {title: "Abstract", content: "Finally moving to abstract symbols and notations, solidifying students' mastery of concepts."}
+            {title: "Abstract", content: "Finally, moving to abstract symbols and notations, solidifying students' mastery of concepts."}
           ]} />
         </SlidingDiv>
         <CustomAccordion containerClass={"w-full"} type="multiple"
@@ -51,7 +51,7 @@ export const PublicationsContent = () => {
                 </SlidingDiv>
                 <SlidingDiv direction={"right"} className="flex-[3_0_0] flex flex-col p-4 md:p-8 lg:p-10 xl:p-12 gap-4 lg:gap-6 xl:gap-8 text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl bg-[#F3EEE8]">
                   <h3 className="text-left ttext-xs sm:text-sm md:text-base lg:text-lg xl:text-xl text-[#FBBA41] font-bold">Popular Math uses puzzles and games to make learning enjoyable for all ages, featuring resources from renowned Maths popularizers and plans for recreational programs and olympiads.</h3>
-                  <p>Martin Gardner, a famous Maths popularizer, is best known for creating and sustaining interest in recreational Math. It is said that Martin transformed countless kids into scientists and countless scientists into kids. Known for his mind-bending puzzles and over 100 engaging books, he sparked curiosity worldwide.</p>
+                  <p>Martin Gardner, a famous Maths popularizer, is best known for creating and sustaining interest in recreational maths. It is said that Martin transformed countless kids into scientists and countless scientists into kids. Known for his mind-bending puzzles and over 100 engaging books, he sparked curiosity worldwide.</p>
                   <p>{"Now, we invite you to continue Martin's legacy by joining us as a part-time author."}</p>
                 </SlidingDiv>
               </div>

@@ -48,13 +48,13 @@ export const readingSteps: ReadingStep[] = [
   },
   {
     heading: "WHO AM I",
-    text: "A journal for children of grade 4 onwards, for knowing and discovering about 'self' with multiple other purposes like writing and thinking skills and character development.",
+    text: "A journal for children of grade 4 onwards, for knowing and discovering about 'self' with multiple other purposes like writing and thinking skills, and character development.",
     color: "#6C3A92",
     src: "/language/reading/6.png",
   },
   {
     heading: "BE AN AUTHOR",
-    text: "Every child is an author in their area of interest. In EL we create many opportunities for children to express themselves in a variety of arts and ways.",
+    text: "Every child is an author in their area of interest. In EL, we create many opportunities for children to express themselves in a variety of arts and ways.",
     color: "#F10229",
     src: "/language/reading/7.png",
     translateY: -20,

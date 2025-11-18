@@ -12,7 +12,7 @@ export const goals: Goal[] = [
     innerBg: "#A98CC2",
     title: "Quality",
     src: "/aboutpage/quality.png",
-    content: "We are committed to delivering high-quality learning experiences through innovative methodologies and assessment frameworks, empowering students to unlock their full potential and thrive academically and personally."
+    content: "We are committed to delivering high-quality learning experiences through innovative methodologies and assessment frameworks, empowering students to unlock their full potential and thrive both academically and personally."
   },
   {
     color: "#CFE8BE",
@@ -26,6 +26,6 @@ export const goals: Goal[] = [
     innerBg: "#6DD1F5",
     title: "Access",
     src: "/aboutpage/access.png",
-    content: "We prioritize accessibility by providing easily accessible learning resources for Students, parents and teachers, ensuring seamless learning experiences for all.",
+    content: "We prioritize accessibility by providing easily accessible learning resources for Students, parents, and teachers, ensuring seamless learning experiences for all.",
   },
 ]
