@@ -18,7 +18,7 @@ export const sciencepackages: Content[] = [
     ]
   },
   {
-    headers: ["Premium", "Maths Lab"],
+    headers: ["Premium", "Science Lab"],
     color: "#6C3694",
     content: [
       "Builds on the Basic package",

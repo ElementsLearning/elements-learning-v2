@@ -26,7 +26,7 @@ export const services: Service[] = [
     content: " Promoting multilingual education by starting with the mother tongue and transitioning to additional languages, fostering cultural richness and effective communication skills.",
     illustrationSrc: "/landingpage/language.png",
     videoSrc: "/animations/language.mp4",
-    link: "/services/language",
+    link: "/services/language/publications",
     linkText: "Learn more",
     color: "#307F0150"
   },
@@ -46,7 +46,7 @@ export const services: Service[] = [
     content: " Supporting children's growth through targeted Early Childhood Education (ECE) and parenting strategies, ensuring a nurturing environment from preschool to young adulthood.",
     illustrationSrc: "/landingpage/ece.png",
     videoSrc: "/animations/ece.mp4",
-    link: "/services/ece",
+    link: "/services/ece/publications",
     linkText: "Learn more",
     color: "#DA037F50"
   },

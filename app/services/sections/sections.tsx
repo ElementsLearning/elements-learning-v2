@@ -1,11 +1,18 @@
 import { ECEContent } from "./ECESection/ECEContent"
+import ECEPublication from "./ECESection/Publications/ECEPublication"
+import ResourceCenter from "./ECESection/ResourceCenter/ResourceCenter"
+import EceTrainings from "./ECESection/Trainings/EceTrainings"
 import { LanguageContent } from "./LanguageSection/LanguageContent"
+import LanguageLab from "./LanguageSection/LanguageLab/LanguageLab"
+import LanguageManipulative from "./LanguageSection/Manipulative/LanguageManipulative"
+import LanguagePublication from "./LanguageSection/Publications/LanguagePublication"
 import { AssessmentsContent } from "./MathSection/AssessmentsContent"
 import { MathsLabsContent } from "./MathSection/MathsLabsContent"
 import { MathsManipulativesContent } from "./MathSection/MathsManipulativesContent"
 import { PublicationsContent } from "./MathSection/Publications/PublicationsContent"
 import { TrainingsContent } from "./MathSection/Training/TrainingsContent"
-import Publication from "./ScienceSection/Publications/Publication"
+import SciencePublication from "./ScienceSection/Publications/SciencePublication"
+import Publication from "./ScienceSection/Publications/SciencePublication"
 import { ScienceContent } from "./ScienceSection/ScienceContent"
 import ScienceLab from "./ScienceSection/ScienceLab/ScienceLab"
 import Training from "./ScienceSection/Trainings/Training"
@@ -79,7 +86,7 @@ export const sections: Section[] =
         name: "Publications",
         src: "/whatweofferpage/maths/publication.png",
         tabName: "publications",
-        content: <Publication />
+        content: <SciencePublication />
       },
       {
         name: "Trainings",
@@ -98,7 +105,7 @@ export const sections: Section[] =
         src: "/whatweofferpage/maths/manipulative.png",
         tabName: "manipulatives",
         disabled: true,
-        content: <MathsManipulativesContent />
+        content: "",
       },
       {
         name: "Assessments",
@@ -115,14 +122,78 @@ export const sections: Section[] =
     serviceName: "language",
     color: "#307F0150",
     src: "/landingpage/language.png",
-    content: <LanguageContent />
+    content: <LanguageContent />,
+    tabs:[{
+        name: "Publications",
+        src: "/whatweofferpage/maths/publication.png",
+        tabName: "publications",
+        content: <LanguagePublication />
+      },
+      {
+        name: "Trainings",
+        src: "/whatweofferpage/maths/trainings.png",
+        tabName: "trainings",
+        disabled: true,
+        content: ""
+      },
+      {
+        name: "Language Lab",
+        src: "/whatweofferpage/maths/maths-labs.png",
+        tabName: "labs",
+        content: <LanguageLab />
+      },
+      {
+        name: "Manipulatives",
+        src: "/whatweofferpage/maths/manipulative.png",
+        tabName: "manipulatives",
+        content: <LanguageManipulative />
+      },
+      {
+        name: "Assessments",
+        src: "/whatweofferpage/maths/assessments.png",
+        tabName: "assessments",
+        disabled: false,
+        content: <AssessmentsContent section={"Language"} />
+      },
+    ],
   },
   {
     name: "Early Childhood Education",
     serviceName: "ece",
     color: "#DA037F50",
     src: "/landingpage/ece.png",
-    content: <ECEContent />
+    content: <ECEContent />,
+    tabs:[{
+        name: "Publications",
+        src: "/whatweofferpage/maths/publication.png",
+        tabName: "publications",
+        content: <ECEPublication />
+      },
+      {
+        name: "Trainings",
+        src: "/whatweofferpage/maths/trainings.png",
+        tabName: "trainings",
+        content: <EceTrainings />
+      },
+      {
+        name: "Language Lab",
+        src: "/whatweofferpage/maths/maths-labs.png",
+        tabName: "labs",
+        content: <ResourceCenter />
+      },
+      {
+        name: "Manipulatives",
+        src: "/whatweofferpage/maths/manipulative.png",
+        tabName: "manipulatives",
+        disabled: true,
+        content: ""
+      },
+      {
+        name: "Assessments",
+        src: "/whatweofferpage/maths/assessments.png",
+        tabName: "assessments",
+        content: <AssessmentsContent section={"Ece"} />
+      },]
   },
   // {
   //   name: "STEAM",

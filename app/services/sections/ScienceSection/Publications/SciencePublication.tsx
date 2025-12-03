@@ -7,8 +7,9 @@ import { TextbooksPublications } from '../../MathSection/Publications/TextbooksP
 import { CarouselSingle } from '@/components/custom/CarouselSingle'
 import { HexagonPlayButton } from '@/components/custom/HexagonPlayButton'
 import { Textbooks } from './Textbooks'
+import { VideoPlayer } from '@/components/custom/VideoPlayer'
 
-export default function Publication() {
+export default function SciencePublication() {
   return (
     <FadeIn threshold={0.01} className="flex flex-col w-full p-4 xs:p-8 sm:p-12 lg:p-16 xl:p-20 xl:px-32">
           <div className="flex flex-col gap-4">
@@ -18,7 +19,13 @@ export default function Publication() {
             </div>
             <div className="flex flex-col gap-4 text-base md:text-lg xl:text-xl">
               <p className=''>At Elements Learning, we follow the spirit of Michael Faraday and Richard Feynman: science should be seen, touched, and tested. Learners begin with close observation and guided exploration, then use inductive reasoning to infer patterns and relationships from real phenomena. Through carefully designed hands-on experiments, they collect and analyze evidence, refine ideas into clear explanations, and apply those ideas to make predictions about new situations. We treat students as active investigators who ask questions, plan procedures, record results, and communicate findings so understanding is discovered rather than memorized.</p>
-              <p className=''>Our publications support schools in bringing inquiry to life through practical materials that are structured, adaptable, and aligned to defined learning outcomes. They include the PBL Blueprints Series and the Elements Learning Science Lab series.</p>
+              <div className="hidden min-[500px]:flex">
+                          <VideoPlayer src="/animations/ScienceLaptop.mp4" className="w-full" />
+                        </div>
+                        <div className="flex min-[500px]:hidden">
+                          <VideoPlayer src="/animations/ScienceMobile.mp4" className="w-full" />
+                        </div>
+              <p className='py-8'>Our publications support schools in bringing inquiry to life through practical materials that are structured, adaptable, and aligned to defined learning outcomes. They include the PBL Blueprints Series and the Elements Learning Science Lab series.</p>
             </div>
             {/* <SlidingDiv direction={"top"} className="pl-8 xs:pl-10 md:pl-24 lg:pl-32 xl:pl-52 py-4">
               <BulletList contentClass="text-base md:text-lg xl:text-xl"

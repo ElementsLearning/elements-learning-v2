@@ -1,138 +1,99 @@
 export type TeamMember = {
-  name: string
-  designation: string
-  corner: string
-}
+  name: string;
+  designation: string;
+  corner: string;
+};
 
 export const team: TeamMember[] = [
   {
     name: "Dr. Abid Rafique",
     designation: "Chief Executive Officer",
-    corner: "br"
+    corner: "br",
   },
   {
     name: "Irfan Sarfaraz",
     designation: "Founder & Chief Knowledge Officer",
-    corner: "tl"
+    corner: "tl",
   },
   {
     name: "Mian Idrees",
     designation: "Founder & Chief Marketing Officer",
-    corner: "bl"
+    corner: "bl",
+  },
+  {
+    name: "Zulfiqar Qazilbash",
+    designation: "Chief Strategy Officer",
+    corner: "br",
   },
   {
     name: "Uzma Rehman",
     designation: "ECE & Parenting Lead",
-    corner: "br"
-  },
-  {
-    name: "Shafqat Faisal",
-    designation: "ECE & Parenting Specialist  ",
-    corner: "br"
-  },
-  {
-    name: "Hira Abbasi",
-    designation: "Dir HR & OD",
-    corner: "br"
-  },
-  {
-    name: "Hamza Mehmood",
-    designation: "Knowledge Officer",
-    corner: "br"
-  },
-  {
-    name: "Waqar Ahmed",
-    designation: "Asst.Project Manager ( Lead QA & IP Specialist) & KM. ",
-    corner: "br"
-  },
-  {
-    name: "Fizza Haq",
-    designation: "Quality Assistant",
-    corner: "br"
+    corner: "br",
   },
   {
     name: "Janita Khan",
     designation: "Program Manager & Math Team Lead",
-    corner: "bl"
-  },{
-    name: "Munazzah Younas",
-    designation: "Business Development & Marketing Manager",
-    corner: "tr"
+    corner: "tl",
   },
   {
-    name: "Muhammad Abdullah",
-    designation: "Communications Manager",
-    corner: "br"
+    name: "Aeman Iqbal Khan",
+    designation: "Human Resources Manager",
+    corner: "bl",
   },
   {
-    name: "Aneeqa Sehar",
-    designation: "IT Manager",
-    corner: "br"
-  },
-  {
-    name: "Memoona Ahmad",
-    designation: "Maths Researcher",
-    corner: "br"
-  },
-  {
-    name: "Mahjabeen Butt",
-    designation: "Math Lead Trainer & Researcher",
-    corner: "br"
-  },
-  {
-    name: "Sana Naeem",
-    designation: "Maths Trainer & Researcher",
+    name: "Hamza Khalid",
+    designation: "Business Development Manager",
     corner: "br",
   },
   {
-    name: "Zoha Rizvi",
-    designation: "Math Trainer & Researcher",
-    corner: "br"
+    name: "Jaweria Saleem",
+    designation: "Manager Operations",
+    corner: "br",
   },
   {
     name: "Darjat Muhammad",
     designation: "Math Trainer & Researcher",
-    corner: "br"
+    corner: "br",
   },
   {
     name: "Muhammad Adan Haider",
     designation: "Math Trainer & Researcher",
-    corner: "br"
+    corner: "br",
   },
   {
     name: "Sadia Maqbool",
     designation: "Science Researcher",
-    corner: "br"
-  },
-  {
-    name: "Yasir Anwar",
-    designation: "Admin Manager",
-    corner: "br"
-  },
-  {
-    name: "Saad Ali",
-    designation: "Admin Assistant",
-    corner: "br"
+    corner: "br",
   },
   {
     name: "Taha Shah",
     designation: "Web Developer",
-    corner: "br"
+    corner: "br",
   },
   {
     name: "Umair Ijaz",
     designation: "Web Developer (Intern)",
-    corner: "br"
+    corner: "br",
   },
   {
-    name: "Kulsoom Ayyaz",
+    name: "Muhammad Abdullah",
+    designation: "Communications Manager",
+    corner: "br",
+  },
+  {
+    name: "Sabir Shah",
+    designation: "Logistics Coordinator",
+    corner: "br",
+  },
+  {
+    name: "Memoona Ahmad",
+    designation: "Maths Researcher",
+    corner: "br",
+  },
+  {
+    name: "Saba Khosa Wajid",
     designation: "Graphics Designer & Illustrator",
-    corner: "br"
+    corner: "br",
   },
-  {
-    name: "Amna Rafique",
-    designation: "Graphics Illustrator",
-    corner: "br"
-  },
-  
-]
+];
+

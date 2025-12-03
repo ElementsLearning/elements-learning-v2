@@ -19,5 +19,9 @@ export const testimonials: Testimonial[] = [
   {
     person: "Parent - Lahore Science Mela, Pakistan",
     quote: "As a parent attending the Science Mela in Lahore, I was thoroughly impressed by the interactive and engaging exhibits presented by Elements Learning. The hands-on math tools and manipulatives on display captivated my child's interest immediately. It was incredible to see how effortlessly the students engaged with the tools, eagerly exploring and experimenting with various concepts. I commend Elements Learning for their innovative approach to education and their commitment to inspiring young minds"
+  },
+  {
+    person:"Director, Directorate of Education Extension (Muzaffarabad)",
+    quote: "We extend our sincere appreciation for your organization's outstanding contribution in conducting the orientation sessions on the newly developed textbooks for the subject of Mathematics (Grades 1-3), across 10 districts of Azad Jammu and Kashmir. Your team's expertise and steadfast support have played a vital role in enhancing the professional capacity of the elementary teachers. We are truly grateful for your dedication, tireless efforts, and strong commitment to advancing education in AJ&K.",
   }
 ]

@@ -24,7 +24,9 @@ const assessmentpoint = [{
 
 const sectionColor: Record<string, string> = {
   Math:"#FCBA42",
-  Science:"#55088C50"
+  Science:"#55088C50",
+  Language: "#307F0150",
+  Ece: "#DA037F50"
 }
 
 
