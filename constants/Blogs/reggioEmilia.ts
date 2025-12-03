@@ -1,11 +1,11 @@
 import { Blog } from "./blog";
 
 export const reggioEmilia : Blog = {
-  "id": "476ad738-7e26-4ad9-9935-09ab83e2ad52",
+  "id": "c5ca81b4-01bf-471b-b03a-5cc058fc8bb6",
   "author": "EL Knowledge Management Team",
-  "date": "2025-11-21",
+  "date": "2025-12-03",
   "title": "From Ruins to Revolution: The Inspiring Story of the Reggio Emilia Approach",
-  "summary": "testing",
+  "summary": "In the immediate aftermath of World War II, parents in Reggio Emilia, Italy, literally built their first schools from war rubble, laying the foundation for a revolutionary educational philosophy. Their visionary leader, Loris Malaguzzi, crystallised this movement by rejecting the traditional view of children as \"empty vessels.\" He instead championed the \"competent child\" as curious, resourceful, and capable of driving their own learning. This approach redefines the physical environment as a \"third teacher\" and utilises progettazione, an emergent curriculum that evolves with the child's interests rather than following a fixed plan. Central to this system is documentation, which rigorously captures the learning process itself, creating a global benchmark for democratic education born from local resilience.\n",
   "content": [
     {
       "type": "PARAGRAPH",
@@ -18,7 +18,7 @@ export const reggioEmilia : Blog = {
     },
     {
       "type": "PARAGRAPH",
-      "text": "This powerful local movement soon found its visionary leader in Loris Malaguzzi, a young teacher and psychologist. Malaguzzi saw the potential in these community schools and began to crystallize their shared philosophy. He famously rejected the prevailing view that children were \"empty vessels\" waiting to be filled. Instead, he championed the radical idea of the competent child, a young human being who is curious, resourceful, and inherently capable of building knowledge through social interaction. This profound respect for the child's potential became the philosophical bedrock upon which the entire system was built.",
+      "text": "This powerful local movement soon found its visionary leader in Loris Malaguzzi, a young teacher and psychologist. Malaguzzi saw the potential in these community schools and began to crystallize their shared philosophy. He famously rejected the prevailing view that children were \"empty vessels\" waiting to be filled. Instead, he championed the radical idea of the competent child, a young human being who is curious, resourceful, and inherently capable of building knowledge through social interaction. This profound respect for the child's potential became the philosophical bedrock upon which the entire system was built.\n",
       "size": "BASE",
       "weight": "NORMAL",
       "style": "NONE",
@@ -27,7 +27,7 @@ export const reggioEmilia : Blog = {
     },
     {
       "type": "PARAGRAPH",
-      "text": "The evolution of the schools was centered on creating a system that honored this image of the child. Educators realized that to truly support children as researchers, they needed unique structures. The physical space itself was designated as the \"third teacher,\" designed to be beautiful, reflective, and purposefully communal, constantly provoking curiosity, communication, and exploration among children. Furthermore, the curriculum could not be fixed. Instead, it was conceptualized as progettazione, an emergent curriculum that evolved in real-time. Teachers, acting as co-learners, would form hypotheses based on observation and then co-construct in-depth, project-based learning with the children and families, respecting and following their interests.\n",
+      "text": "The evolution of the schools was centered on creating a system that honored this image of the child. Educators realized that to truly support children as researchers, they needed unique structures. The physical space itself was designated as the \"third teacher,\" designed to be beautiful, reflective, and purposefully communal, constantly provoking curiosity, communication, and exploration among children. Furthermore, the curriculum could not be fixed. Instead, it was conceptualized as progettazione, an emergent curriculum that evolved in real-time. Teachers, acting as co-learners, would form hypotheses based on observation and then co-construct in-depth, project-based learning with the children and families, respecting and following their interests.",
       "size": "BASE",
       "weight": "NORMAL",
       "style": "NONE",
@@ -36,7 +36,7 @@ export const reggioEmilia : Blog = {
     },
     {
       "type": "PARAGRAPH",
-      "text": "Central to this emergent system is the practice of documentation. This is not simple record-keeping; it is a pedagogical research tool. Through transcripts of children’s conversations, collections of sketches, and photographs of their interactions, teachers carefully capture the process of learning, not just the product. This documentation serves three vital functions: it fuels the teachers' reflection and planning, validates the children's work and their many forms of expression (the hundred languages), and creates a common ground for dialogue among the children, teachers, and parents. The system is consistently maintained by the Pedagogista, a specialized resource person who ensures the philosophical coherence and quality of the entire network.\n",
+      "text": "Central to this emergent system is the practice of documentation. This is not simple record-keeping; it is a pedagogical research tool. Through transcripts of children’s conversations, collections of sketches, and photographs of their interactions, teachers carefully capture the process of learning, not just the product. This documentation serves three vital functions: it fuels the teachers' reflection and planning, validates the children's work and their many forms of expression (the hundred languages), and creates a common ground for dialogue among the children, teachers, and parents. The system is consistently maintained by the Pedagogista, a specialized resource person who ensures the philosophical coherence and quality of the entire network.",
       "size": "BASE",
       "weight": "NORMAL",
       "style": "NONE",
@@ -45,12 +45,13 @@ export const reggioEmilia : Blog = {
     },
     {
       "type": "PARAGRAPH",
-      "text": "What began as a single, defiant effort by post-war parents in 1946 grew into a global benchmark. The Reggio Emilia Approach stands today as a testament to the power of community and a constant reminder to educators everywhere: when we shift our perspective to see the child as capable and competent, the learning environment naturally transforms into a place of deep curiosity, dialogue, and powerful discovery.\n",
+      "text": "What began as a single, defiant effort by post-war parents in 1946 grew into a global benchmark. The Reggio Emilia Approach stands today as a testament to the power of community and a constant reminder to educators everywhere: when we shift our perspective to see the child as capable and competent, the learning environment naturally transforms into a place of deep curiosity, dialogue, and powerful discovery.",
       "size": "BASE",
       "weight": "NORMAL",
       "style": "NONE",
       "alignment": "LEFT",
       "indented": false
     }
-  ]
+  ],
+  "headerSrc": "/blogs/reggioEmilia/reggioEmilia.png"
 };

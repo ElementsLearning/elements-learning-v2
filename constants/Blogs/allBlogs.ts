@@ -50,6 +50,6 @@ export const defaultImage: ImageType = {
 export const allBlogs: Blog[] = [
   dinosaurExtinction,
   sciencePopularizers,
-  reggioEmilia
+  reggioEmilia,
   // solarSystem,
 ]
