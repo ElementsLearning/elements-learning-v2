@@ -4,7 +4,7 @@ import { BlogBullets } from "@/components/blogComponents/BlogBullets"
 import { BlogHeader } from "@/components/blogComponents/BlogHeader"
 import { BlogImage } from "@/components/blogComponents/BlogImage"
 import { BlogParagraph } from "@/components/blogComponents/BlogParagraph"
-import { defaultBlog, defaultBullets, defaultHeader, defaultImage, defaultParagraph } from "@/constants/Blogs/allBlogs"
+import { defaultBlog, defaultBullets, defaultHeader, defaultImage, defaultParagraph, defaultTable } from "@/constants/Blogs/allBlogs"
 import { Blog, BlogContent, Editable } from "@/constants/Blogs/blog"
 import { createZip, deepCopy, processBlog } from "@/lib/utils"
 import { useCallback, useState } from "react"
@@ -14,6 +14,7 @@ import { Dialog, DialogClose, DialogContent, DialogTrigger } from "../ui/dialog"
 import { Input } from "../ui/input"
 import { Textarea } from "../ui/textarea"
 import { NewComponentButton } from "./NewComponentButton"
+import { BlogTable } from "./BlogTable"
 
 type EditBlogProps = {
   blogToEdit?: Blog
@@ -40,6 +41,10 @@ const BlogComponent: React.FC<BlogComponentProps> = ({onEdit, moveUp, moveDown, 
     case "IMAGE": {
       // @ts-ignore
       return <BlogImage editable deleteComponent={deleteComponent} moveUp={moveUp} moveDown={moveDown} onEdit={onEdit} {...props} />
+    }
+    case "TABLE": {
+      // @ts-ignore
+      return <BlogTable editable deleteComponent={deleteComponent} moveUp={moveUp} moveDown={moveDown} onEdit={onEdit} {...props} />
     }
     default: {
       return <p className="font-bold text-3xl text-red-500">Error in BLOG JSON</p>
@@ -102,6 +107,10 @@ export const EditBlog: React.FC<EditBlogProps> = ({blogToEdit=defaultBlog}) => {
         setBlog(b => ({...b, content: [...b.content, deepCopy({...defaultImage, indented: false})]}))
         break
       }
+      case "TABLE": {
+         setBlog(b => ({...b, content: [...b.content, deepCopy({...defaultTable, indented: false})]}))
+         break
+}
       default: {
       }
     }

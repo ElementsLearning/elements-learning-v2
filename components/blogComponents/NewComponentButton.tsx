@@ -22,6 +22,7 @@ export const NewComponentButton: React.FC<NewComponentButtonProps> = ({onAdd}) =
         <Button onClick={() => { onAdd("HEADER"); setOpened(false) }} variant={"ghost"}>Header</Button>
         <Button onClick={() => { onAdd("BULLET"); setOpened(false) }} variant={"ghost"}>Bullets</Button>
         <Button onClick={() => { onAdd("IMAGE"); setOpened(false) }} variant={"ghost"}>Image</Button>
+        <Button onClick={() => { onAdd("TABLE"); setOpened(false) }} variant={"ghost"}>Table</Button>
       </Card> :
       <Button className="flex gap-1 items-center" onClick={() => setOpened(true)}>
         Add New Component

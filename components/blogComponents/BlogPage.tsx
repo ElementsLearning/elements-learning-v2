@@ -6,6 +6,7 @@ import { BlogBullets } from "./BlogBullets"
 import { BlogHeader } from "./BlogHeader"
 import { BlogImage } from "./BlogImage"
 import { BlogParagraph } from "./BlogParagraph"
+import { BlogTable } from "./BlogTable"
 
 type BlogComponentProps = {
   type: string
@@ -28,6 +29,10 @@ const BlogComponent: React.FC<BlogComponentProps> = ({type, ...props}) => {
     case "IMAGE": {
       // @ts-ignore
       return <BlogImage {...props} />
+    }
+    case "TABLE": {
+      // @ts-ignore
+      return <BlogTable {...props} />
     }
     default: {
       return <p className="font-bold text-3xl text-red-500">Error in BLOG JSON</p>

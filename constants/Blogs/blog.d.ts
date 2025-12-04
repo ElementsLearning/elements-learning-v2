@@ -38,6 +38,25 @@ export type HeaderType = {
   alignment: "LEFT" | "CENTER" | "RIGHT"
 }
 
+export type TableType = {
+  type: "TABLE"
+  headers: string[]
+  rows: string[][]
+  caption?: ParagraphType
+  headerStyle?: {
+    size: "BASE" | "XS" | "SMALL" | "LARGE"
+    weight: "NORMAL" | "BOLD" | "SEMIBOLD"
+    style: "NONE" | "ITALIC"
+    alignment: "LEFT" | "CENTER" | "RIGHT"
+  }
+  cellStyle?: {
+    size: "BASE" | "XS" | "SMALL" | "LARGE"
+    weight: "NORMAL" | "BOLD" | "SEMIBOLD"
+    style: "NONE" | "ITALIC"
+    alignment: "LEFT" | "CENTER" | "RIGHT"
+  }
+}
+
 export type BulletType = {
   type: "BULLET"
   style: "DISCS" | "NONE" | "DOTS" | "NUMBERS" | "LETTERS"
@@ -70,4 +89,4 @@ export type Editable = {
   deleteComponent?: (index?: number) => void
 }
 
-export type BlogContent = (ParagraphType | HeaderType | BulletType | ImageType) & IndentedType & Editable
+export type BlogContent = (ParagraphType | HeaderType | BulletType | ImageType | TableType) & IndentedType & Editable
