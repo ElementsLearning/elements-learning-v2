@@ -14,7 +14,7 @@ export const Clients = () => {
             alt="Silver Oaks"
             className="h-16 sm:h-20 md:h-24 lg:h-32 xl:h-48"
           />
-          <p className="mt-2 text-sm sm:text-base text-center font-medium">
+          <p className="mt-2 px-2 text-sm sm:text-base text-center font-medium">
             Silver Oaks International Education Services
           </p>
         </div>
@@ -130,7 +130,7 @@ export const Clients = () => {
         {/* Khudi 8 */}
         <div className="w-full flex flex-col items-center justify-center">
           <img
-            src="/clients/khudi.png"
+            src="/clients/Khudi.png"
             alt="Elementary"
             className="h-16 sm:h-20 md:h-24 lg:h-30 xl:h-48"
           />
