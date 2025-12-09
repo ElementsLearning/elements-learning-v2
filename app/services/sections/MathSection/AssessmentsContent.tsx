@@ -31,22 +31,22 @@ const sectionConfig: Record<string, {
   Math: {
     color: "#FCBA42",
     holisticImage: "/assessment/holistic/math.png",
-    trackingImage: "/assessment/child/math.png"
+    trackingImage: "/assessment/tracking/math.png"
   },
   Science: {
     color: "#55088C50",
     holisticImage: "/assessment/holistic/science.png",
-    trackingImage: "/assessment/child/science.png"
+    trackingImage: "/assessment/tracking/science.png"
   },
   Language: {
     color: "#307F0150",
     holisticImage: "/assessment/holistic/language.png",
-    trackingImage: "/assessment/child/language.png"
+    trackingImage: "/assessment/tracking/language.png"
   },
   Ece: {
     color: "#DA037F50",
     holisticImage: "/assessment/holistic/ece.png",
-    trackingImage: "/assessment/child/ece.png"
+    trackingImage: "/assessment/tracking/ece.png"
   }
 }
 
