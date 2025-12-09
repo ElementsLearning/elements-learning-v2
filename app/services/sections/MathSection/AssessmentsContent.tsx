@@ -31,7 +31,7 @@ const sectionConfig: Record<string, {
   Math: {
     color: "#FCBA42",
     holisticImage: "/assessment/holistic/math.png",
-    trackingImage: "/assessment/child/mathp.png"
+    trackingImage: "/assessment/child/math.png"
   },
   Science: {
     color: "#55088C50",

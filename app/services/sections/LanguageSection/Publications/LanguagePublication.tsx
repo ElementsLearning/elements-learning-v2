@@ -174,7 +174,7 @@ export default function LanguagePublication() {
                       className="sm:flex-[2_0_0] aspect-square bg-neutral-400"
                     >
                       <img
-                        src="/projectblueprint/1.png"
+                        src="/projectblueprint/2.png"
                         alt=""
                         className="size-full"
                       />

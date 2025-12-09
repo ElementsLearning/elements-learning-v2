@@ -72,9 +72,9 @@ export const PublicationsContent = () => {
                       direction={"right"}
                       className="flex-[3_0_0] flex flex-col p-4 md:p-8 lg:p-10 xl:p-12 gap-4 lg:gap-6 xl:gap-8 text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl bg-[#F3EEE8]"
                     >
-                      <p>
-                        
-                      </p>
+                      <h3 className="text-left text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl text-[#FBBA41] font-bold">Our textbooks are meticulously crafted to align with the Student Learning Outcomes (SLOs) provided by the single National Curriculum.</h3>
+      <p className="text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl text-left"> By incorporating best practices based on the CPA methodology and innovative methods from educational theorists such as Jerome Bruner, Richard Skemp, Zoltán Pál Dienes, and Caleb Gattegno, our textbooks ensure a comprehensive and effective learning experience.</p>
+    
                     </SlidingDiv>
                     <SlidingDiv
                       direction={"right"}

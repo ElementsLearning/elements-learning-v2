@@ -145,19 +145,19 @@ export default function ResourceCenter() {
                           <img
                           key={"1"}
                             alt=""
-                            src="/ecelab/1.png"
+                            src="/eceLab/1.png"
                             className="size-full object-cover"
                           />,
                           <img
                             alt=""
                             key={"2"}
-                            src="/ecelab/2.png"
+                            src="/eceLab/2.png"
                             className="size-full object-cover"
                           />,
                           <img
                             alt=""
                             key={"3"}
-                            src="/ecelab/3.png"
+                            src="/eceLab/3.png"
                             className="size-full object-cover"
                           />,
                         ]}
