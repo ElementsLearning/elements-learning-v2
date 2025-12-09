@@ -143,7 +143,7 @@ export const sections: Section[] =
         content: <LanguageLab />
       },
       {
-        name: "World Game Manipulatives",
+        name: "WorldGame Manipulatives",
         src: "/whatweofferpage/language/worldgame.png",
         tabName: "manipulatives",
         content: <LanguageManipulative />
