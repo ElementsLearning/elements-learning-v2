@@ -124,7 +124,7 @@ export const AssessmentsContent = ({
                     <p>
                       Our tracking system allows teachers to mark each subgoal
                       throughout the year using a Likert scale. This provides a
-                      real-time measure of each child's progress, ensuring that
+                      real-time measure of each {`student's`}
                       goals are consistently monitored and reinforced.
                     </p>
                   </SlidingDiv>

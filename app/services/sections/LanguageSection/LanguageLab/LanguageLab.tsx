@@ -155,12 +155,14 @@ export default function LanguageLab() {
                         containerClass={"size-full relative"}
                         items={[
                           <img
+                          key={"1"}
                             alt=""
                             src="/WhoAmI/OWL.png"
                             className="size-full object-cover"
                           />,
                           <img
                             alt=""
+                            key={"2"}
                             src="/WhoAmI/ELE.png"
                             className="size-full object-cover"
                           />,

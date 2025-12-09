@@ -39,11 +39,11 @@ export const Textbooks = () => {
   const contents = {
     "TEACHERS": <>
       <CarouselSingle containerClass={"size-full"} items={[
-        <img alt="" src="/ScienceLab/3.png" className="size-full" />,
-        <img alt="" src="/ScienceLab/4.png" className="size-full" />,
-        <img alt="" src="/ScienceLab/5.png" className="size-full" />,
-        <img alt="" src="/ScienceLab/6.png" className="size-full" />,
-        <img alt="" src="/ScienceLab/7.png" className="size-full" />,
+        <img alt="" src="/ScienceLab/3.png" className="size-full"  key={"1"}/>,
+        <img alt="" src="/ScienceLab/4.png" className="size-full"  key={"2"}/>,
+        <img alt="" src="/ScienceLab/5.png" className="size-full" key={"3"} />,
+        <img alt="" src="/ScienceLab/6.png" className="size-full" key={"4"} />,
+        <img alt="" src="/ScienceLab/7.png" className="size-full" key={"5"} />,
       ]}
       nextButton={
         <div className="size-10 lg:size-16 pr-2 xs:pr-0">
@@ -53,11 +53,11 @@ export const Textbooks = () => {
     </>,
     "STUDENTS": <>
       <CarouselSingle containerClass={"size-full"} items={[
-        <img alt="" src="/ScienceLab/3.png" className="size-full" />,
-        <img alt="" src="/ScienceLab/4.png" className="size-full" />,
-        <img alt="" src="/ScienceLab/5.png" className="size-full" />,
-        <img alt="" src="/ScienceLab/6.png" className="size-full" />,
-        <img alt="" src="/ScienceLab/7.png" className="size-full" />,
+        <img alt="" src="/ScienceLab/3.png" className="size-full"  key={"1"}/>,
+        <img alt="" src="/ScienceLab/4.png" className="size-full"  key={"2"}/>,
+        <img alt="" src="/ScienceLab/5.png" className="size-full" key={"3"} />,
+        <img alt="" src="/ScienceLab/6.png" className="size-full" key={"4"} />,
+        <img alt="" src="/ScienceLab/7.png" className="size-full" key={"5"} />,
       ]}
       nextButton={
         <div className="size-10 lg:size-16 pr-2 xs:pr-0">

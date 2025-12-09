@@ -84,11 +84,13 @@ export const PublicationsContent = () => {
                         containerClass={"size-full relative"}
                         items={[
                           <img
+                          key={"1"}
                             alt=""
                             src="/MathTextbook/ajk/2.png"
                             className="size-full object-cover"
                           />,
                           <img
+                          key={"2"}
                             alt=""
                             src="/MathTextbook/ajk/3.png"
                             className="size-full object-cover"

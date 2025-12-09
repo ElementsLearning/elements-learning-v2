@@ -138,11 +138,13 @@ export default function LanguagePublication() {
                         items={[
                           <img
                             alt=""
+                            key={"1"}
                             src="/WhoAmI/OWL.png"
                             className="size-full object-cover"
                           />,
                           <img
                             alt=""
+                            key={"2"}
                             src="/WhoAmI/ELE.png"
                             className="size-full object-cover"
                           />,

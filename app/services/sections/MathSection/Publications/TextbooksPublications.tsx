@@ -42,11 +42,11 @@ export const TextbooksPublications = () => {
   const contents = {
     "OVERVIEW": <>
       <CarouselSingle containerClass={"size-full"} items={[
-          <img alt="" src="/MathTextbook/1.png" className="size-fll" />,
-          <img alt="" src="/MathTextbook/2.png" className="size-full" />,
-          <img alt="" src="/MathTextbook/3.png" className="size-full" />,
-          <img alt="" src="/MathTextbook/4.png" className="size-full" />,
-          <img alt="" src="/MathTextbook/5.png" className="size-full" />
+          <img alt="" src="/MathTextbook/1.png" className="size-fll" key={"1"} />,
+          <img alt="" src="/MathTextbook/2.png" className="size-full" key={"2"} />,
+          <img alt="" src="/MathTextbook/3.png" className="size-full" key={"3"} />,
+          <img alt="" src="/MathTextbook/4.png" className="size-full" key={"4"} />,
+          <img alt="" src="/MathTextbook/5.png" className="size-full" key={"5"} />
       ]}
       nextButton={
         <div className="size-10 lg:size-16 pr-2 xs:pr-0">

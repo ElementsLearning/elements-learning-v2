@@ -143,17 +143,20 @@ export default function ResourceCenter() {
                         containerClass={"size-full relative"}
                         items={[
                           <img
+                          key={"1"}
                             alt=""
                             src="/ecelab/1.png"
                             className="size-full object-cover"
                           />,
                           <img
                             alt=""
+                            key={"2"}
                             src="/ecelab/2.png"
                             className="size-full object-cover"
                           />,
                           <img
                             alt=""
+                            key={"3"}
                             src="/ecelab/3.png"
                             className="size-full object-cover"
                           />,
