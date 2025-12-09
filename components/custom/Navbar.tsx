@@ -80,7 +80,7 @@ export const Navbar = () => {
               <Link href="/services/maths/publications" className={`transition-colors duration-500 border-b-2 border-transparent hover:border-[#FBBA41] w-full`}>Maths</Link>
               <Link href="/services/language/publications" className={`transition-colors duration-500 border-b-2 border-transparent hover:border-[#FBBA41] w-full`}>Language</Link>
               <Link href="/services/science/publications" className={`transition-colors duration-500 border-b-2 border-transparent hover:border-[#FBBA41] w-full`}>Science</Link>
-              <Link href="/services/ece/publications" className={`transition-colors duration-500 border-b-2 border-transparent hover:border-[#FBBA41] w-full`}>ECE</Link>
+              <Link href="/services/ece/publications" className={`transition-colors duration-500 border-b-2 border-transparent hover:border-[#FBBA41] w-full`}>ECE & Parenting</Link>
               <Link href="" className={`transition-colors duration-500 border-b-2 border-transparent hover:border-neutral-200 text-neutral-300 w-full`}>Social Science</Link>
               <Link href="" className={`transition-colors duration-500 border-b-2 border-transparent hover:border-neutral-200 text-neutral-300 w-full`}>STEAM</Link>
               <Link href="" className={`transition-colors duration-500 border-b-2 border-transparent hover:border-neutral-200 text-neutral-300 w-full`}>Ed Tech</Link>

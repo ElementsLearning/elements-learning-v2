@@ -63,6 +63,52 @@ export const PublicationsContent = () => {
               content: <TextbooksPublications />,
             },
             {
+              title: "AJK Textbooks",
+              id: "AJK Textbooks",
+              content: (
+                <div className="p-2 xs:p-4 md:p-6 lg:p-8">
+                  <div className="flex flex-col-reverse sm:flex-row gap-2">
+                    <SlidingDiv
+                      direction={"right"}
+                      className="flex-[3_0_0] flex flex-col p-4 md:p-8 lg:p-10 xl:p-12 gap-4 lg:gap-6 xl:gap-8 text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl bg-[#F3EEE8]"
+                    >
+                      <p>
+                        
+                      </p>
+                    </SlidingDiv>
+                    <SlidingDiv
+                      direction={"right"}
+                      className="sm:flex-[2_0_0] aspect-[3/4] bg-neutral-400"
+                    >
+                      <CarouselSingle
+                        containerClass={"size-full relative"}
+                        items={[
+                          <img
+                            alt=""
+                            src="/MathTextbook/ajk/2.png"
+                            className="size-full object-cover"
+                          />,
+                          <img
+                            alt=""
+                            src="/MathTextbook/ajk/3.png"
+                            className="size-full object-cover"
+                          />,
+                        ]}
+                        nextButton={
+                          <div className="absolute right-[-4px] top-1/2 -translate-y-1/2 z-10 size-10 lg:size-16">
+                            <HexagonPlayButton
+                              outerColor={"#307F0150"}
+                              innerColor={"#FFFFFF"}
+                            />
+                          </div>
+                        }
+                      />
+                    </SlidingDiv>
+                  </div>
+                </div>
+              ),
+            },            
+            {
               title: "Popular Maths",
               id: "Popular Maths",
               content: (
@@ -138,59 +184,7 @@ export const PublicationsContent = () => {
                 </div>
               ),
             },
-            {
-              title: "AJK Textbooks",
-              id: "AJK Textbooks",
-              content: (
-                <div className="p-2 xs:p-4 md:p-6 lg:p-8">
-                  <div className="flex flex-col-reverse sm:flex-row gap-2">
-                    <SlidingDiv
-                      direction={"right"}
-                      className="flex-[3_0_0] flex flex-col p-4 md:p-8 lg:p-10 xl:p-12 gap-4 lg:gap-6 xl:gap-8 text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl bg-[#F3EEE8]"
-                    >
-                      <p>
-                        The Who Am I? Journal is a reflective student workbook
-                        that builds self-expression, comprehension, and writing
-                        fluency. Through prompts, mini-projects, and personal
-                        storytelling tasks, students explore identity, emotions,
-                        and everyday experiences in both their home language and
-                        English. It connects language learning to real life,
-                        helping children see words as a means of understanding
-                        themselves and the world.
-                      </p>
-                    </SlidingDiv>
-                    <SlidingDiv
-                      direction={"right"}
-                      className="sm:flex-[2_0_0] aspect-[3/4] bg-neutral-400"
-                    >
-                      <CarouselSingle
-                        containerClass={"size-full relative"}
-                        items={[
-                          <img
-                            alt=""
-                            src="/MathTextbook/ajk/2.png"
-                            className="size-full object-cover"
-                          />,
-                          <img
-                            alt=""
-                            src="/MathTextbook/ajk/3.png"
-                            className="size-full object-cover"
-                          />,
-                        ]}
-                        nextButton={
-                          <div className="absolute right-[-4px] top-1/2 -translate-y-1/2 z-10 size-10 lg:size-16">
-                            <HexagonPlayButton
-                              outerColor={"#307F0150"}
-                              innerColor={"#FFFFFF"}
-                            />
-                          </div>
-                        }
-                      />
-                    </SlidingDiv>
-                  </div>
-                </div>
-              ),
-            },
+            
           ]}
         />
       </div>
