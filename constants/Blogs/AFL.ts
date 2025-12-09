@@ -3,7 +3,7 @@ import { Blog } from "./blog";
 export const AFL:Blog = {
   "id": "340697a3-7cb9-4159-a611-b01bffca4ec5",
   "author": "EL Knowledge Management Team",
-  "date": "2025-12-09",
+  "date": "2024-12-10",
   "title": "Pedagogy Over Performance: Why AfL and Mastery Define True Learning",
   "summary": "For decades, schools have prioritised performance and fixed pace, often leaving struggling students behind. This article challenges that model by introducing the synergy of Assessment for Learning (AfL) and Teaching for Mastery. We explore how AfL transforms assessment from a summative judgement into a continuous diagnostic engine. Instead of rushing to cover content, the Mastery model treats time as the variable and understanding as the fixed goal. By viewing mistakes as crucial data rather than failure, this approach fosters a collaborative environment where specific feedback ensures every student reaches the standard before moving forward.\n",
   "content": [

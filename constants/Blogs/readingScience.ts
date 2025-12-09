@@ -3,7 +3,7 @@ import { Blog } from "./blog";
 export const readingScience: Blog = {
   "id": "4252dea8-7c80-4e27-911c-99a764d9df7a",
   "author": "EL Knowledge Management Team ",
-  "date": "2025-12-09",
+  "date": "2025-01-6",
   "title": "Why Should We Stop Reading Science and Start Doing It?",
   "summary": "The true spirit of science lies in discovery, a sentiment echoed by scripture and the career of Michael Faraday. This article argues that science should be experienced, not merely read. We explore Faraday’s philosophy of \"active investigation\", which rejects passive lectures in favour of hands-on experimentation. By positioning the student as a discoverer, we outline a three-stage journey: observing a phenomenon, manipulating variables to gather data, and using inductive reasoning to construct scientific concepts. This shift from receiving facts to doing science ensures that students build durable, transferable knowledge rooted in their own visual and tactile experience.\n",
   "content": [

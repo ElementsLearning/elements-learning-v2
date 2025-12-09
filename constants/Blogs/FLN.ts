@@ -3,7 +3,7 @@ import { Blog } from "./blog";
 export const FLN:Blog = {
   "id": "4b2b892d-c803-430d-82c5-e6af91792247",
   "author": "EL Knowledge Management Team",
-  "date": "2025-12-09",
+  "date": "2024-11-05",
   "title": "FLN: The Critical Shift from What to How",
   "summary": "Did reducing the curriculum ever truly solve the learning crisis? This article argues that Foundational Literacy and Numeracy (FLN) is not a short-term fix but a deep pedagogical transformation. We explore why the solution lies not in cutting content arbitrarily, but in applying the \"80/20 Rule\", prioritising the essential skills that unlock future learning. By shifting focus from \"what\" to \"how\", the approach emphasises conceptual mastery and continuous diagnostic assessment over rushing through a syllabus. Discover how an initial slowdown to ensure robust foundations ultimately leads to systemic acceleration and independent academic success.",
   "content": [

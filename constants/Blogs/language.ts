@@ -3,7 +3,7 @@ import { Blog } from "./blog";
 export const language:Blog = {
   "id": "416932b7-4622-4671-b2c0-c8a1c5e14ea5",
   "author": "EL Knowledge Management Team",
-  "date": "2025-12-09",
+  "date": "2025-02-07",
   "title": "The Science of Language: Why Comprehension Always Comes First",
   "summary": "Language acts as the fundamental operating system of the human brain, enabling the leap from basic skills to abstract thought. This article argues that true mastery begins with comprehension, not just decoding. We trace the developmental sequence, starting with oral proficiency in the home language (L1) to establish conceptual clarity before bridging to a second language (L2). By emphasising massive vocabulary expansion and the transition from \"learning to read\" to \"reading to learn\", this approach ensures language becomes a tool for critical thinking. Discover how this structured journey fosters not just academic success, but personal character and self-expression.\n",
   "content": [

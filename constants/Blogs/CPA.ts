@@ -3,7 +3,7 @@ import { Blog } from "./blog";
 export const CPA:Blog = {
   "id": "2e50fa86-5852-4b88-a41e-2a913c878d0a",
   "author": "",
-  "date": "2025-12-09",
+  "date": "2024-10-09",
   "title": "Building Mathematical Understanding: The Power of CPA and Manipulatives",
   "summary": "Mathematical fluency often begins not with numbers, but with objects. This article explores the Concrete-Pictorial-Abstract (CPA) methodology, a framework originally proposed by psychologist Jerome Bruner to bridge the gap between tangible reality and abstract symbols. We break down the three critical stages: starting with \"enactive\" hands-on manipulatives, bridging to \"iconic\" visual diagrams, and finally arriving at symbolic notation. Beyond the steps, we delve into the cognitive science, such as embodied cognition and concreteness fading, that explains why physical interaction builds stronger neural pathways. Discover how this research-backed strategy moves students from simple calculation to deep conceptual mastery.\n",
   "content": [

@@ -3,7 +3,7 @@ import { Blog } from "./blog";
 export const greatDivide:Blog = {
   "id": "ce209558-b9b9-42ca-b12c-7d6ed10bca21",
   "author": "EL Knowledge Management Team",
-  "date": "2025-12-04",
+  "date": "2024-09-04",
   "title": "The Great Divide: Traditional Instructor vs. Reggio Co-Learner",
   "summary": "The distinction between a traditional classroom and a Reggio setting is not merely about materials; it represents a fundamental collision of philosophies. While the traditional model casts the teacher as a \"knowledge transmitter\" delivering fixed content to passive recipients, the Reggio approach demands a radical redefinition of authority. This article contrasts that role with the Reggio educator as a \"co-learner\" and researcher who views the child as a \"competent protagonist\". We explore how this shift transforms daily practice, replacing rigid testing with deep documentation and emergent curriculum, ultimately moving from dictating lessons to co-constructing knowledge in a true collaborative partnership.",
   "content": [

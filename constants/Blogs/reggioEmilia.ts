@@ -3,7 +3,7 @@ import { Blog } from "./blog";
 export const reggioEmilia:Blog = {
   "id": "c5ca81b4-01bf-471b-b03a-5cc058fc8bb6",
   "author": "EL Knowledge Management Team",
-  "date": "2025-12-03",
+  "date": "2024-08-05",
   "title": "From Ruins to Revolution: The Inspiring Story of the Reggio Emilia Approach",
   "summary": "In the immediate aftermath of World War II, parents in Reggio Emilia, Italy, literally built their first schools from war rubble, laying the foundation for a revolutionary educational philosophy. Their visionary leader, Loris Malaguzzi, crystallised this movement by rejecting the traditional view of children as \"empty vessels.\" He instead championed the \"competent child\" as curious, resourceful, and capable of driving their own learning. This approach redefines the physical environment as a \"third teacher\" and utilises progettazione, an emergent curriculum that evolves with the child's interests rather than following a fixed plan. Central to this system is documentation, which rigorously captures the learning process itself, creating a global benchmark for democratic education born from local resilience.\n",
   "content": [
