@@ -91,5 +91,5 @@ export const greatDivide:Blog = {
       "indented": false
     }
   ],
-  "headerSrc": "/blogs/greatDivide/image.png"
+  "headerSrc": "/blogs/greatDivide/blog 4 . The Great Divide.. title  .png"
 };

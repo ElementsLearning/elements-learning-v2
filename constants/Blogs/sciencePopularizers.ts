@@ -1,6 +1,6 @@
 import { Blog } from "./blog";
 
-export const sciencePopularizers : Blog = {
+export const sciencePopularizers:Blog = {
   "id": "a9faedce-868c-42a2-98c5-670ac7a68505",
   "author": "EL Knowledge Management Team",
   "date": "2024-07-29",
@@ -34,5 +34,6 @@ export const sciencePopularizers : Blog = {
       "alignment": "LEFT",
       "indented": false
     }
-  ]
+  ],
+  "headerSrc": "/blogs/sciencePopularizers/sciencePT.png"
 };

@@ -40,22 +40,25 @@ export const MathsLabsContent = () => {
             content: 
             <div className="py-2 xs:py-4 md:py-6 lg:py-8">
               <div className="flex flex-col sm:flex-row gap-2">
-                <SlidingDiv direction={"left"} className="sm:flex-[2_0_0] aspect-[3/4] bg-blue-950">
+                <SlidingDiv direction={"left"} className="sm:flex-[2_0_0] aspect-[3/4] -blue-950">
                   <CarouselSingle containerClass={"size-full"} items={[
+                         <div key={`mathLabCover-1`} className="p-3">
+                          <img src="/MathLabCover/0.png" alt="" className="size-full shadow-lg shadow-slate-400" />
+                        </div>,
                         <div key={`mathLabCover-1`} className="p-3">
-                          <img src="/MathLabCover/1.jpg" alt="" className="size-full shadow-lg shadow-slate-400" />
+                          <img src="/MathLabCover/1.png" alt="" className="size-full shadow-lg shadow-slate-400" />
                         </div>,
                         <div key={`mathLabCover-2`} className="p-3">
-                          <img src="/MathLabCover/2.jpg" alt="" className="size-full shadow-lg shadow-slate-400" />
+                          <img src="/MathLabCover/2.png" alt="" className="size-full shadow-lg shadow-slate-400" />
                         </div>,
                         <div key={`mathLabCover-3`} className="p-3">
-                          <img src="/MathLabCover/3.jpg" alt="" className="size-full shadow-lg shadow-slate-400" />
+                          <img src="/MathLabCover/3.png" alt="" className="size-full shadow-lg shadow-slate-400" />
                         </div>,
                         <div key={`mathLabCover-4`} className="p-3">
-                          <img src="/MathLabCover/4.jpg" alt="" className="size-full shadow-lg shadow-slate-400" />
+                          <img src="/MathLabCover/4.png" alt="" className="size-full shadow-lg shadow-slate-400" />
                         </div>,
                         <div key={`mathLabCover-5`} className="p-3">
-                          <img src="/MathLabCover/5.jpg" alt="" className="size-full shadow-lg shadow-slate-400" />
+                          <img src="/MathLabCover/5.png" alt="" className="size-full shadow-lg shadow-slate-400" />
                         </div>,
                     ]}
                     nextButton={

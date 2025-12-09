@@ -1,6 +1,6 @@
 import { Blog } from "./blog";
 
-export const reggioEmilia : Blog = {
+export const reggioEmilia:Blog = {
   "id": "c5ca81b4-01bf-471b-b03a-5cc058fc8bb6",
   "author": "EL Knowledge Management Team",
   "date": "2025-12-03",
@@ -23,7 +23,8 @@ export const reggioEmilia : Blog = {
       "weight": "NORMAL",
       "style": "NONE",
       "alignment": "LEFT",
-      "indented": false
+      "indented": false,
+      "src": "/blogs/reggioEmilia/Blog 3. pic 1.png"
     },
     {
       "type": "PARAGRAPH",
@@ -53,5 +54,5 @@ export const reggioEmilia : Blog = {
       "indented": false
     }
   ],
-  "headerSrc": "/blogs/reggioEmilia/reggioEmilia.png"
+  "headerSrc": "/blogs/reggioEmilia/Blog 3. title .png"
 };

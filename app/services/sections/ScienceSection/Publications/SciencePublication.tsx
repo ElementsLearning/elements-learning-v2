@@ -6,8 +6,8 @@ import React from 'react'
 import { TextbooksPublications } from '../../MathSection/Publications/TextbooksPublications'
 import { CarouselSingle } from '@/components/custom/CarouselSingle'
 import { HexagonPlayButton } from '@/components/custom/HexagonPlayButton'
-import { Textbooks } from './Textbooks'
 import { VideoPlayer } from '@/components/custom/VideoPlayer'
+import { Textbooks } from './Textbooks'
 
 export default function SciencePublication() {
   return (
@@ -49,17 +49,7 @@ export default function SciencePublication() {
                 <div className="py-2 xs:py-4 md:py-6 lg:py-8">
                   <div className="flex flex-col sm:flex-row gap-2">
                     <SlidingDiv direction={"left"} className="sm:flex-[2_0_0] aspect-square bg-neutral-400">
-                    <CarouselSingle containerClass={"size-full"} items={[
-                          <img key={`popularMath-1`} src="/popularmath/1.jpg" alt="" className="size-full" />, 
-                          <img key={`popularMath-2`} src="/popularmath/2.jpg" alt="" className="size-full" />, 
-                          <img key={`popularMath-3`} src="/popularmath/3.jpg" alt="" className="size-full" />, 
-                          <img key={`popularMath-4`} src="/popularmath/4.jpg" alt="" className="size-full" />,
-                      ]}
-                      nextButton={
-                        <div className="size-10 lg:size-16 pr-2 xs:pr-0">
-                          <HexagonPlayButton outerColor={"#55088C50"} innerColor={"#FFFFFF"}/>
-                        </div>
-                      } />
+                    <img src='/projectblueprint/1.png' alt='' />
                     </SlidingDiv>
                     <SlidingDiv direction={"right"} className="flex-[3_0_0] flex flex-col p-4 md:p-8 lg:p-10 xl:p-12 gap-4 lg:gap-6 xl:gap-8 text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl bg-[#F3EEE8]">
                       <p>A structured, holistic PBL framework with 200+ projects across Grades 1–5. Blueprints are adaptable templates aligned to SLOs across the Intellectual, Spiritual, Physical, and Aesthetic dimensions, integrating Hunter’s Direct Instruction with Project-Based Learning. Each project includes objectives, prerequisite knowledge, material, instructions, assessment criteria, facilitation notes, and reflection prompts.

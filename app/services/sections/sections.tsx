@@ -90,19 +90,19 @@ export const sections: Section[] =
       },
       {
         name: "Trainings",
-        src: "/whatweofferpage/maths/trainings.png",
+        src: "/whatweofferpage/science/training.png",
         tabName: "trainings",
         content: <Training /> 
       },
       {
         name: "Science Lab",
-        src: "/whatweofferpage/maths/maths-labs.png",
+        src: "/whatweofferpage/science/lab.png",
         tabName: "labs",
         content: <ScienceLab />
       },
       {
         name: "Manipulatives",
-        src: "/whatweofferpage/maths/manipulative.png",
+        src: "/whatweofferpage/science/manipulative.png",
         tabName: "manipulatives",
         disabled: true,
         content: "",
@@ -131,20 +131,20 @@ export const sections: Section[] =
       },
       {
         name: "Trainings",
-        src: "/whatweofferpage/maths/trainings.png",
+        src: "/whatweofferpage/language/training.png",
         tabName: "trainings",
         disabled: true,
         content: ""
       },
       {
         name: "Language Lab",
-        src: "/whatweofferpage/maths/maths-labs.png",
+        src: "/whatweofferpage/language/lab.png",
         tabName: "labs",
         content: <LanguageLab />
       },
       {
-        name: "Manipulatives",
-        src: "/whatweofferpage/maths/manipulative.png",
+        name: "World Game Manipulatives",
+        src: "/whatweofferpage/language/worldgame.png",
         tabName: "manipulatives",
         content: <LanguageManipulative />
       },
@@ -158,7 +158,7 @@ export const sections: Section[] =
     ],
   },
   {
-    name: "Early Childhood Education",
+    name: "ECE and Parenting",
     serviceName: "ece",
     color: "#DA037F50",
     src: "/landingpage/ece.png",
@@ -171,19 +171,19 @@ export const sections: Section[] =
       },
       {
         name: "Trainings",
-        src: "/whatweofferpage/maths/trainings.png",
+        src: "/whatweofferpage/ece/training.png",
         tabName: "trainings",
         content: <EceTrainings />
       },
       {
-        name: "Language Lab",
-        src: "/whatweofferpage/maths/maths-labs.png",
+        name: "ECE Resornce Center",
+        src: "/whatweofferpage/ece/rc.png",
         tabName: "labs",
         content: <ResourceCenter />
       },
       {
         name: "Manipulatives",
-        src: "/whatweofferpage/maths/manipulative.png",
+        src: "/whatweofferpage/ece/manipulative.png",
         tabName: "manipulatives",
         disabled: true,
         content: ""

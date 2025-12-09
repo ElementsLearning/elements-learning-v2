@@ -39,21 +39,11 @@ export const Textbooks = () => {
   const contents = {
     "TEACHERS": <>
       <CarouselSingle containerClass={"size-full"} items={[
-        <Link key={`teacherPublication-1`} href={"/pdfs/sample1.pdf"} target="_blank" rel="noreferrer"> 
-          <img alt="" src="/bookcovers/book1.jpg" className="size-full" />
-        </Link>, 
-        <Link key={`teacherPublication-2`} href={"/pdfs/sample2.pdf"} target="_blank" rel="noreferrer"> 
-          <img alt="" src="/bookcovers/book2.jpg" className="size-full" />
-        </Link>, 
-        <Link key={`teacherPublication-3`} href={"/pdfs/sample3.pdf"} target="_blank" rel="noreferrer"> 
-          <img alt="" src="/bookcovers/book3.jpg" className="size-full" />
-        </Link>, 
-        <Link key={`teacherPublication-4`} href={"/pdfs/sample4.pdf"} target="_blank" rel="noreferrer"> 
-          <img alt="" src="/bookcovers/book4.jpg" className="size-full" />
-        </Link>, 
-        <Link key={`teacherPublication-5`} href={"/pdfs/sample5.pdf"} target="_blank" rel="noreferrer"> 
-          <img alt="" src="/bookcovers/book5.jpg" className="size-full" />
-        </Link>, 
+        <img alt="" src="/ScienceLab/3.png" className="size-full" />,
+        <img alt="" src="/ScienceLab/4.png" className="size-full" />,
+        <img alt="" src="/ScienceLab/5.png" className="size-full" />,
+        <img alt="" src="/ScienceLab/6.png" className="size-full" />,
+        <img alt="" src="/ScienceLab/7.png" className="size-full" />,
       ]}
       nextButton={
         <div className="size-10 lg:size-16 pr-2 xs:pr-0">
@@ -63,21 +53,11 @@ export const Textbooks = () => {
     </>,
     "STUDENTS": <>
       <CarouselSingle containerClass={"size-full"} items={[
-        <Link key={`studentPublication-1`} href={"/pdfs/sample1.pdf"} target="_blank" rel="noreferrer"> 
-          <img alt="" src="/bookcovers/book1.jpg" className="size-full" />
-        </Link>, 
-        <Link key={`studentPublication-2`} href={"/pdfs/sample2.pdf"} target="_blank" rel="noreferrer"> 
-          <img alt="" src="/bookcovers/book2.jpg" className="size-full" />
-        </Link>, 
-        <Link key={`studentPublication-3`} href={"/pdfs/sample3.pdf"} target="_blank" rel="noreferrer"> 
-          <img alt="" src="/bookcovers/book3.jpg" className="size-full" />
-        </Link>, 
-        <Link key={`studentPublication-4`} href={"/pdfs/sample4.pdf"} target="_blank" rel="noreferrer"> 
-          <img alt="" src="/bookcovers/book4.jpg" className="size-full" />
-        </Link>, 
-        <Link key={`studentPublication-5`} href={"/pdfs/sample5.pdf"} target="_blank" rel="noreferrer"> 
-          <img alt="" src="/bookcovers/book5.jpg" className="size-full" />
-        </Link>, 
+        <img alt="" src="/ScienceLab/3.png" className="size-full" />,
+        <img alt="" src="/ScienceLab/4.png" className="size-full" />,
+        <img alt="" src="/ScienceLab/5.png" className="size-full" />,
+        <img alt="" src="/ScienceLab/6.png" className="size-full" />,
+        <img alt="" src="/ScienceLab/7.png" className="size-full" />,
       ]}
       nextButton={
         <div className="size-10 lg:size-16 pr-2 xs:pr-0">

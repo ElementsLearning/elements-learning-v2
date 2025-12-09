@@ -72,7 +72,7 @@ export const team: TeamMember[] = [
   },
   {
     name: "Umair Ijaz",
-    designation: "Web Developer (Intern)",
+    designation: "Web Developer",
     corner: "br",
   },
   {

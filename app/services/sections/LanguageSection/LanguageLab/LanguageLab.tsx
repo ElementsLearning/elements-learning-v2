@@ -11,6 +11,7 @@ import { sciencepackages } from "@/constants/sciencepakages";
 import React from "react";
 import { Textbooks } from "../../ScienceSection/Publications/Textbooks";
 import { languagepackages } from "@/constants/languagepackages";
+import { Link } from "lucide-react";
 
 export default function LanguageLab() {
   return (
@@ -81,11 +82,10 @@ export default function LanguageLab() {
                       className="sm:flex-[2_0_0] aspect-square bg-neutral-400"
                     >
                       <img
-                        src="/popularmath/1.jpg"
+                        src="/worldgame/1.png"
                         alt=""
                         className="size-full"
                       />
-                      ,
                     </SlidingDiv>
                   </div>
                 </div>
@@ -102,11 +102,10 @@ export default function LanguageLab() {
                       className="sm:flex-[2_0_0] aspect-square bg-neutral-400"
                     >
                       <img
-                        src="/popularmath/1.jpg"
+                        src="/worldgame/2.png"
                         alt=""
                         className="size-full"
                       />
-                      ,
                     </SlidingDiv>
                     <SlidingDiv
                       direction={"right"}
@@ -131,8 +130,8 @@ export default function LanguageLab() {
               title: "Who Am I? Student Journal",
               id: "Who Am I? Student Journal",
               content: (
-                <div className="py-2 xs:py-4 md:py-6 lg:py-8">
-                  <div className="flex flex-col sm:flex-row gap-2">
+                <div className="p-2 xs:p-4 md:p-6 lg:p-8">
+                  <div className="flex flex-col-reverse sm:flex-row gap-2">
                     <SlidingDiv
                       direction={"right"}
                       className="flex-[3_0_0] flex flex-col p-4 md:p-8 lg:p-10 xl:p-12 gap-4 lg:gap-6 xl:gap-8 text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl bg-[#F3EEE8]"
@@ -149,15 +148,32 @@ export default function LanguageLab() {
                       </p>
                     </SlidingDiv>
                     <SlidingDiv
-                      direction={"left"}
-                      className="sm:flex-[2_0_0] aspect-square bg-neutral-400"
+                      direction={"right"}
+                      className="sm:flex-[2_0_0] aspect-[3/4] bg-neutral-400"
                     >
-                      <img
-                        src="/popularmath/1.jpg"
-                        alt=""
-                        className="size-full"
+                      <CarouselSingle
+                        containerClass={"size-full relative"}
+                        items={[
+                          <img
+                            alt=""
+                            src="/WhoAmI/OWL.png"
+                            className="size-full object-cover"
+                          />,
+                          <img
+                            alt=""
+                            src="/WhoAmI/ELE.png"
+                            className="size-full object-cover"
+                          />,
+                        ]}
+                        nextButton={
+                          <div className="absolute right-[-4px] top-1/2 -translate-y-1/2 z-10 size-10 lg:size-16">
+                            <HexagonPlayButton
+                              outerColor={"#307F0150"}
+                              innerColor={"#FFFFFF"}
+                            />
+                          </div>
+                        }
                       />
-                      ,
                     </SlidingDiv>
                   </div>
                 </div>
@@ -174,11 +190,10 @@ export default function LanguageLab() {
                       className="sm:flex-[2_0_0] aspect-square bg-neutral-400"
                     >
                       <img
-                        src="/popularmath/1.jpg"
+                        src="/projectblueprint/1.png"
                         alt=""
                         className="size-full"
                       />
-                      ,
                     </SlidingDiv>
                     <SlidingDiv
                       direction={"right"}

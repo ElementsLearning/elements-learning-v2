@@ -1,6 +1,11 @@
+import { AFL } from "./AFL";
 import { Blog, BulletType, HeaderType, ImageType, ParagraphType, TableType } from "./blog";
+import { CPA } from "./CPA";
 import { dinosaurExtinction } from "./dinosaurExtinction";
+import { FLN } from "./FLN";
 import { greatDivide } from "./greatDivide";
+import { language } from "./language";
+import { readingScience } from "./readingScience";
 import { reggioEmilia } from "./reggioEmilia";
 import { sciencePopularizers } from "./sciencePopularizers";
 
@@ -72,6 +77,11 @@ export const allBlogs: Blog[] = [
   dinosaurExtinction,
   sciencePopularizers,
   reggioEmilia,
-  greatDivide
+  greatDivide,
+  CPA,
+  FLN,
+  AFL,
+  readingScience,
+  language,
   // solarSystem,
 ]

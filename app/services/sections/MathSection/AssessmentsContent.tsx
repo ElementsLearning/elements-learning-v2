@@ -22,20 +22,41 @@ const assessmentpoint = [{
   color: "#9FD8EB",
 }]
 
-const sectionColor: Record<string, string> = {
-  Math:"#FCBA42",
-  Science:"#55088C50",
-  Language: "#307F0150",
-  Ece: "#DA037F50"
+// Color aur Images dono eik hi object mein
+const sectionConfig: Record<string, {
+  color: string;
+  holisticImage: string;
+  trackingImage: string;
+}> = {
+  Math: {
+    color: "#FCBA42",
+    holisticImage: "/assessment/holistic/math.png",
+    trackingImage: "/assessment/child/mathp.png"
+  },
+  Science: {
+    color: "#55088C50",
+    holisticImage: "/assessment/holistic/science.png",
+    trackingImage: "/assessment/child/science.png"
+  },
+  Language: {
+    color: "#307F0150",
+    holisticImage: "/assessment/holistic/language.png",
+    trackingImage: "/assessment/child/language.png"
+  },
+  Ece: {
+    color: "#DA037F50",
+    holisticImage: "/assessment/holistic/ece.png",
+    trackingImage: "/assessment/child/ece.png"
+  }
 }
 
-
-
 export const AssessmentsContent = ({ 
-    section = "#FCBA42" 
+    section = "Math" 
 }: {section?: string;}) => {
 
-  const resolveColors = sectionColor[section] ||section
+  // Section config ko resolve karein, agar nahi mila to Math ka use karein
+  const config = sectionConfig[section] || sectionConfig.Math;
+
   return (
     <FadeIn
       threshold={0.01}
@@ -54,7 +75,7 @@ export const AssessmentsContent = ({
 
       <CustomAccordion
         containerClass={"w-full"}
-        color= {resolveColors}
+        color={config.color}
         type="multiple"
         items={[
           {
@@ -62,40 +83,38 @@ export const AssessmentsContent = ({
             id: "Holistic Learning Goals",
             content: (
               <div className="py-2 xs:py-4 md:py-6 lg:py-8">
-                            <div className="flex flex-cols sm:flex-row gap-2">
-                              <SlidingDiv direction={"left"} className="flex-[3_0_0] flex flex-col p-4 md:p-8 lg:p-10 xl:p-12 gap-4 lg:gap-6 xl:gap-8 text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl bg-[#F3EEE8]">
-                                <h3 className="text-left ttext-xs sm:text-sm md:text-base lg:text-lg xl:text-xl text-[#FBBA41] font-bold">Traditional education often focuses only on intellectual growth, but at Elements Learning, we go further. Every grade level has subgoals organized under four tiers, covering intellectual, practical, and cross-subject skills.</h3>
-                                <p>Through our Project-Based Learning (PBL) Blueprints, students engage with concepts in ways that connect academic learning to real-world applications. This approach ensures students develop the full spectrum of skills and understanding, not just what is tested on paper.</p>
-                              </SlidingDiv>
-                              <SlidingDiv direction={"right"} className="sm:flex-[2_0_0] aspect-square bg-neutral-400">
-                                    <img key={`popularMath-4`} src="/popularmath/4.jpg" alt="" className="size-full" />,
-                              </SlidingDiv>
-                              
-                            </div>
-                          </div>
+                <div className="flex flex-cols sm:flex-row gap-2">
+                  <SlidingDiv direction={"left"} className="flex-[3_0_0] flex flex-col p-4 md:p-8 lg:p-10 xl:p-12 gap-4 lg:gap-6 xl:gap-8 text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl bg-[#F3EEE8]">
+                    <h3 className={`text-left text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl text-[${config.color}] font-bold`}>
+                      Traditional education often focuses only on intellectual growth, but at Elements Learning, we go further. Every grade level has subgoals organized under four tiers, covering intellectual, practical, and cross-subject skills.
+                    </h3>
+                    <p>Through our Project-Based Learning (PBL) Blueprints, students engage with concepts in ways that connect academic learning to real-world applications. This approach ensures students develop the full spectrum of skills and understanding, not just what is tested on paper.</p>
+                  </SlidingDiv>
+                  <SlidingDiv direction={"right"} className="sm:flex-[2_0_0] aspect-square bg-neutral-200">
+                    <img 
+                      src={config.holisticImage} 
+                      alt={`${section} holistic learning`} 
+                      className="size-full object-cover" 
+                    />
+                  </SlidingDiv>
+                </div>
+              </div>
             ),
           },
           {
             title: "Child Tracking System",
             id: "Child Tracking System",
-            // disabled: true,
             content: (
               <div className="py-2 xs:py-4 md:py-6 lg:py-8">
                 <div className="flex flex-col sm:flex-row gap-2">
                   <SlidingDiv
                     direction={"left"}
-                    className="sm:flex-[2_0_0] aspect-square bg-neutral-400"
+                    className="sm:flex-[2_0_0] aspect-square bg-neutral-200"
                   >
-                    <CarouselSingle
-                      containerClass={"size-full"}
-                      items={[
-                        <img
-                          key={`popularMath-1`}
-                          src="/popularmath/1.jpg"
-                          alt=""
-                          className="size-full"
-                        />,
-                      ]}
+                    <img
+                      src={config.trackingImage}
+                      alt={`${section} tracking system`}
+                      className="size-full object-cover"
                     />
                   </SlidingDiv>
                   <SlidingDiv
@@ -105,7 +124,7 @@ export const AssessmentsContent = ({
                     <p>
                       Our tracking system allows teachers to mark each subgoal
                       throughout the year using a Likert scale. This provides a
-                      real-time measure of each child’s progress, ensuring that
+                      real-time measure of each child's progress, ensuring that
                       goals are consistently monitored and reinforced.
                     </p>
                   </SlidingDiv>
@@ -115,34 +134,6 @@ export const AssessmentsContent = ({
           },
         ]}
       />
-
-      
     </FadeIn>
   );
 };
-
-
-
-{/* <CustomAccordion containerClass={"w-full"} type="multiple"
-      items={[
-        {
-          title: "Student Assessments",
-          id: "Student Assessments",
-          content: 
-          <div className="flex flex-col flex-wrap sm:flex-row gap-4 py-2 xs:py-4 md:py-6 lg:py-8">
-            {studentAssessments.map((assessment,i) => <AssessmentCard key={`assessment-${i}`} {...assessment} index={i} />)}
-          </div>
-        },
-        {
-          title: "Teacher Assessments",
-          id: "Teacher Assessments",
-          // disabled: true,
-          content: 
-          
-          <div className="py-8 md:py-6 lg:p-8 flex md:flex-row gap-8 md:gap-4 flex-col">
-            {teacherAssessments.map((assessment, i) => <AssessmentCard key={`teacherAssessment-${i}`} {...assessment} index={i} />)}
-          </div>
-
-        },
-      ]}
-      /> */}

@@ -12,7 +12,7 @@ export const TextbooksPublications = () => {
 
   const texts = {
     "OVERVIEW": <>
-      <h3 className="text-left ttext-xs sm:text-sm md:text-base lg:text-lg xl:text-xl text-[#FBBA41] font-bold">Our textbooks are meticulously crafted to align with the Student Learning Outcomes (SLOs) provided by the single National Curriculum.</h3>
+      <h3 className="text-left text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl text-[#FBBA41] font-bold">Our textbooks are meticulously crafted to align with the Student Learning Outcomes (SLOs) provided by the single National Curriculum.</h3>
       <p className="text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl text-left"> By incorporating best practices based on the CPA methodology and innovative methods from educational theorists such as Jerome Bruner, Richard Skemp, Zoltán Pál Dienes, and Caleb Gattegno, our textbooks ensure a comprehensive and effective learning experience.</p>
     </>,
     "TEACHERS": <>
@@ -40,7 +40,20 @@ export const TextbooksPublications = () => {
   }
 
   const contents = {
-    "OVERVIEW": <img alt="" src="/media/IMG-20240401-WA0010.jpg" className="h-full" />,
+    "OVERVIEW": <>
+      <CarouselSingle containerClass={"size-full"} items={[
+          <img alt="" src="/MathTextbook/1.png" className="size-fll" />,
+          <img alt="" src="/MathTextbook/2.png" className="size-full" />,
+          <img alt="" src="/MathTextbook/3.png" className="size-full" />,
+          <img alt="" src="/MathTextbook/4.png" className="size-full" />,
+          <img alt="" src="/MathTextbook/5.png" className="size-full" />
+      ]}
+      nextButton={
+        <div className="size-10 lg:size-16 pr-2 xs:pr-0">
+          <HexagonPlayButton outerColor={"#FCBA42"} innerColor={"#FFFFFF"}/>
+        </div>
+      } />
+    </>,
     "TEACHERS": <>
       <CarouselSingle containerClass={"size-full"} items={[
         <Link key={`teacherPublication-1`} href={"/pdfs/sample1.pdf"} target="_blank" rel="noreferrer"> 
