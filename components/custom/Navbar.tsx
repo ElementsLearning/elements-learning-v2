@@ -112,7 +112,7 @@ export const Navbar = () => {
             <Link href="/services" className={`border-b-2 border-[#FBBA41]`}>What we Offer</Link>
             <Link href="/blogs" className={`border-b-2 border-[#FBBA41]`}>Blogs</Link>
             <Link href="/news" className={`border-b-2 border-[#FBBA41]`}>News & Updates</Link>
-            <Link href="/news" className={`border-b-2 border-[#FBBA41]`}>News & Updates</Link>
+            <Link href="/contact" className={`border-b-2 border-[#FBBA41]`}>Contact Us</Link>
             <Link href="/shop" className={`border-b-2 border-[#FBBA41]`}>Shop</Link>
           </div>
         </div>
