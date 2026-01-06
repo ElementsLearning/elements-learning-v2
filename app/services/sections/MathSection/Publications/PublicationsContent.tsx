@@ -5,6 +5,7 @@ import { FadeIn } from "@/components/custom/FadeIn";
 import { HexagonPlayButton } from "@/components/custom/HexagonPlayButton";
 import { SlidingDiv } from "@/components/custom/SlidingDiv";
 import { TextbooksPublications } from "./TextbooksPublications";
+import Link from "next/link";
 
 export const PublicationsContent = () => {
   return (
@@ -63,6 +64,114 @@ export const PublicationsContent = () => {
               content: <TextbooksPublications />,
             },
             {
+              title: "Teacher Guides",
+              id: "Teacher Guides",
+              content: (
+                <div className="py-2 xs:py-4 md:py-6 lg:py-8">
+                  <div className="flex flex-col sm:flex-row gap-2">
+                    <SlidingDiv
+                      direction={"left"}
+                      className="sm:flex-[2_0_0] aspect-[3/4] "
+                    >
+                      <CarouselSingle
+                        containerClass={"size-full"}
+                        items={[
+                          <Link
+                            key={`studentPublication-1`}
+                            href={"/pdfs/sample1.pdf"}
+                            target="_blank"
+                            rel="noreferrer"
+                          >
+                            <img
+                              alt=""
+                              src="/bookcovers/book1.jpg"
+                              className="size-full"
+                            />
+                          </Link>,
+                          <Link
+                            key={`studentPublication-2`}
+                            href={"/pdfs/sample2.pdf"}
+                            target="_blank"
+                            rel="noreferrer"
+                          >
+                            <img
+                              alt=""
+                              src="/bookcovers/book2.jpg"
+                              className="size-full"
+                            />
+                          </Link>,
+                          <Link
+                            key={`studentPublication-3`}
+                            href={"/pdfs/sample3.pdf"}
+                            target="_blank"
+                            rel="noreferrer"
+                          >
+                            <img
+                              alt=""
+                              src="/bookcovers/book3.jpg"
+                              className="size-full"
+                            />
+                          </Link>,
+                          <Link
+                            key={`studentPublication-4`}
+                            href={"/pdfs/sample4.pdf"}
+                            target="_blank"
+                            rel="noreferrer"
+                          >
+                            <img
+                              alt=""
+                              src="/bookcovers/book4.jpg"
+                              className="size-full"
+                            />
+                          </Link>,
+                          <Link
+                            key={`studentPublication-5`}
+                            href={"/pdfs/sample5.pdf"}
+                            target="_blank"
+                            rel="noreferrer"
+                          >
+                            <img
+                              alt=""
+                              src="/bookcovers/book5.jpg"
+                              className="size-full"
+                            />
+                          </Link>,
+                        ]}
+                        nextButton={
+                          <div className="size-10 lg:size-16 pr-2 xs:pr-0">
+                            <HexagonPlayButton
+                              outerColor={"#FCBA42"}
+                              innerColor={"#FFFFFF"}
+                            />
+                          </div>
+                        }
+                      />
+                    </SlidingDiv>
+                    <SlidingDiv
+                      direction={"bottom"}
+                      className="flex-[3_0_0] flex flex-col  p-4 md:p-8 lg:p-10 xl:p-12 gap-4 lg:gap-6 xl:gap-8 text-xs sm:text-sm md:text-base xl:text-lg bg-[#F3EEE8]"
+                    >
+                      <h3 className="text-left ttext-xs sm:text-sm md:text-base lg:text-lg xl:text-xl text-[#FBBA41] font-bold">
+                        Our Teacher Guides offer essential teaching strategies
+                        and classroom management tips, helping educators deliver
+                        engaging and effective lessons.
+                      </h3>
+                      <div className="pl-12 md:pl-24 lg:pl-32 xl:pl-40">
+                        <BulletList
+                          contentClass="text-sm text-left md:text-base xl:text-lg"
+                          list={[
+                            { title: "Effective Teaching Strategies" },
+                            { title: "Comprehensive Assessment Tools" },
+                            { title: "Supplementary Learning Resources" },
+                          ]}
+                        />
+                      </div>
+                    </SlidingDiv>
+                  </div>
+                </div>
+              ),
+            },
+            {
               title: "AJK Textbooks",
               id: "AJK Textbooks",
               content: (
@@ -72,9 +181,19 @@ export const PublicationsContent = () => {
                       direction={"right"}
                       className="flex-[3_0_0] flex flex-col p-4 md:p-8 lg:p-10 xl:p-12 gap-4 lg:gap-6 xl:gap-8 text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl bg-[#F3EEE8]"
                     >
-                      <h3 className="text-left text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl text-[#FBBA41] font-bold">Our textbooks are meticulously crafted to align with the Student Learning Outcomes (SLOs) provided by the single National Curriculum.</h3>
-      <p className="text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl text-left"> By incorporating best practices based on the CPA methodology and innovative methods from educational theorists such as Jerome Bruner, Richard Skemp, Zoltán Pál Dienes, and Caleb Gattegno, our textbooks ensure a comprehensive and effective learning experience.</p>
-    
+                      <h3 className="text-left text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl text-[#FBBA41] font-bold">
+                        Our textbooks are meticulously crafted to align with the
+                        Student Learning Outcomes (SLOs) provided by the single
+                        National Curriculum.
+                      </h3>
+                      <p className="text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl text-left">
+                        {" "}
+                        By incorporating best practices based on the CPA
+                        methodology and innovative methods from educational
+                        theorists such as Jerome Bruner, Richard Skemp, Zoltán
+                        Pál Dienes, and Caleb Gattegno, our textbooks ensure a
+                        comprehensive and effective learning experience.
+                      </p>
                     </SlidingDiv>
                     <SlidingDiv
                       direction={"right"}
@@ -84,13 +203,19 @@ export const PublicationsContent = () => {
                         containerClass={"size-full relative"}
                         items={[
                           <img
-                          key={"1"}
+                            key={"1"}
+                            alt=""
+                            src="/MathTextbook/ajk/1.png"
+                            className="size-full object-cover"
+                          />,
+                          <img
+                            key={"2"}
                             alt=""
                             src="/MathTextbook/ajk/2.png"
                             className="size-full object-cover"
                           />,
                           <img
-                          key={"2"}
+                            key={"3"}
                             alt=""
                             src="/MathTextbook/ajk/3.png"
                             className="size-full object-cover"
@@ -109,7 +234,7 @@ export const PublicationsContent = () => {
                   </div>
                 </div>
               ),
-            },            
+            },
             {
               title: "Popular Maths",
               id: "Popular Maths",
@@ -186,7 +311,6 @@ export const PublicationsContent = () => {
                 </div>
               ),
             },
-            
           ]}
         />
       </div>

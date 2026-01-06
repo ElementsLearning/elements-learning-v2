@@ -13,14 +13,20 @@ export const Ecetraining = [
   },
   {
     title: "Common Errors & Misconceptions",
-    duration:"Day 4",
+    duration:"Day 3",
     objective:"Highlights frequent mistakes in early years teaching (e.g., early academics, misreading behavior) and helps educators adopt more developmentally appropriate practices.",
     color: "#9FD8EB",
+  },
+  {
+    title: "Best Practices & Approaches",
+    duration:"Day 4",
+    objective:"Explores Reggio Emilia, Montessori, Loose Parts, and holistic development approaches, showing how to blend international standards with local/Islamic values.",
+    color: "#F2CBAC",
   },
   {
     title: "Designing & Implementing ECE Settings",
     duration:"Day 5",
     objective:"Guides participants in setting up effective ECE classrooms, routines, and learning centers, ending with practical planning and micro-teaching.",
-    color: "#F2CBAC",
+    color: "#E6A3A3",
   },
 ];

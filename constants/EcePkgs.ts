@@ -19,7 +19,7 @@ export const packages: Content[] = [
     ]
   },
   {
-    headers: ["Premium", "Maths Lab"],
+    headers: ["Premium", "ECE Resource Center"],
     color: "#6C3694",
     content: [
         "Builds on the Basic package.",

@@ -10,9 +10,9 @@ export default function FlipCards({data, columns = 4}: {data:any[], columns?:Num
 
   return (
     <div className="">
-      <div className="max-w-7xl mx-auto py-24">
+      <div className="max-w-8xl mx-auto py-24">
         <div 
-          className={`grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-${columns} gap-8`}
+          className={`grid grid-cols-1 sm:grid-cols-${columns} gap-8`}
           onMouseLeave={() => setActiveCard(null)}
         >
           {data.map((training, index) => (
@@ -64,13 +64,13 @@ function FlipCard({
       >
         {/* FRONT SIDE */}
         <div
-          className="absolute inset-0 flex items-center justify-center shadow-lg rounded-2xl p-6"
+          className="absolute inset-0 flex items-center justify-center shadow-lg rounded-2xl p-2"
           style={{ 
             backfaceVisibility: "hidden",
             backgroundColor: color,  
           }}
         >
-          <h2 className="text-center font-bold text-xl text-gray-800 leading-tight">
+          <h2 className="text-center font-bold text-lg text-gray-800 leading-tight">
             {title}
           </h2>
         </div>
@@ -83,7 +83,7 @@ function FlipCard({
             transform: "rotateY(180deg)",
           }}
         >
-          <p className="text-base md:text-lg xl:text-xl">
+          <p className="text-base  xl:text-lg">
             {description}
           </p>
         </div>

@@ -10,7 +10,7 @@ export const sciencetraining = [
   {
     title: "The Story of the Universe",
     description:"Exploring major scientific theories through narrative and hands-on physics experiments.",
-    duration:"2 hours",
+    duration:"9 hours",
     objective:" Develop a foundational understanding of major scientific theories and how they evolved. Teachers engage in narrative-based explorations from the Big Bang to fundamental forces, complemented by hands-on physics experiments on gravity, motion, and electromagnetism.",
     color: "#9FD5B5",
   },

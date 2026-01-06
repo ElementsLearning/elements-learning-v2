@@ -6,6 +6,7 @@ import { LanguageContent } from "./LanguageSection/LanguageContent"
 import LanguageLab from "./LanguageSection/LanguageLab/LanguageLab"
 import LanguageManipulative from "./LanguageSection/Manipulative/LanguageManipulative"
 import LanguagePublication from "./LanguageSection/Publications/LanguagePublication"
+import LanguageTrainings from "./LanguageSection/Trainings/LanguageTrainings"
 import { AssessmentsContent } from "./MathSection/AssessmentsContent"
 import { MathsLabsContent } from "./MathSection/MathsLabsContent"
 import { MathsManipulativesContent } from "./MathSection/MathsManipulativesContent"
@@ -133,8 +134,7 @@ export const sections: Section[] =
         name: "Trainings",
         src: "/whatweofferpage/language/training.png",
         tabName: "trainings",
-        disabled: true,
-        content: ""
+        content: <LanguageTrainings />
       },
       {
         name: "Language Lab",
@@ -176,7 +176,7 @@ export const sections: Section[] =
         content: <EceTrainings />
       },
       {
-        name: "ECE Resornce Center",
+        name: "ECE Resource Center",
         src: "/whatweofferpage/ece/rc.png",
         tabName: "labs",
         content: <ResourceCenter />

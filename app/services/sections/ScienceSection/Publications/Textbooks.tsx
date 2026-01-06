@@ -44,6 +44,7 @@ export const Textbooks = () => {
         <img alt="" src="/ScienceLab/5.png" className="size-full" key={"3"} />,
         <img alt="" src="/ScienceLab/6.png" className="size-full" key={"4"} />,
         <img alt="" src="/ScienceLab/7.png" className="size-full" key={"5"} />,
+        <img alt="" src="/ScienceLab/8.png" className="size-full" key={"6"} />,
       ]}
       nextButton={
         <div className="size-10 lg:size-16 pr-2 xs:pr-0">

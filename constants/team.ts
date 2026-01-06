@@ -36,6 +36,21 @@ export const team: TeamMember[] = [
     corner: "tl",
   },
   {
+    name: "Muhammad Adan Haider",
+    designation: "Math Trainer & Researcher",
+    corner: "br",
+  },
+  {
+    name: "Jaweria Saleem",
+    designation: "Manager Operations",
+    corner: "br",
+  },
+  {
+    name: "Saba Khosa Wajid",
+    designation: "Graphics Designer & Illustrator",
+    corner: "br",
+  },
+  {
     name: "Aeman Iqbal Khan",
     designation: "Human Resources Manager",
     corner: "bl",
@@ -45,21 +60,13 @@ export const team: TeamMember[] = [
     designation: "Business Development Manager",
     corner: "br",
   },
-  {
-    name: "Jaweria Saleem",
-    designation: "Manager Operations",
-    corner: "br",
-  },
+
   {
     name: "Darjat Muhammad",
     designation: "Math Trainer & Researcher",
     corner: "br",
   },
-  {
-    name: "Muhammad Adan Haider",
-    designation: "Math Trainer & Researcher",
-    corner: "br",
-  },
+
   {
     name: "Sadia Maqbool",
     designation: "Science Researcher",
@@ -77,7 +84,7 @@ export const team: TeamMember[] = [
   },
   {
     name: "Muhammad Abdullah",
-    designation: "Communications Manager",
+    designation: "Social Media Manager",
     corner: "br",
   },
   {
@@ -90,10 +97,4 @@ export const team: TeamMember[] = [
     designation: "Maths Researcher",
     corner: "br",
   },
-  {
-    name: "Saba Khosa Wajid",
-    designation: "Graphics Designer & Illustrator",
-    corner: "br",
-  },
 ];
-

@@ -69,7 +69,7 @@ export const MathsManipulativesContent = () => {
     <FadeIn threshold={0.01} className="flex flex-col w-full p-4 xs:p-8 sm:p-12 lg:p-16 xl:p-20 xl:px-32">
       <div className="flex flex-col gap-4">
         <div className="flex flex-col gap-4  text-base md:text-lg xl:text-xl">
-          <h4 className="text-2xl xl:text-3xl">Play, Learn, and Grow with the DoMath Series!</h4>
+          <h4 className="text-2xl xl:text-3xl font-sans font-bold">Play, Learn, and Grow with the DoMath Series!</h4>
           <p>Our DoMath series, inspired by the well-known Singapore maths technique, would be an adventurous mathematical discovery for the students.</p>
           <p>This series is reinforced with manipulative tools, including Tangram, Geoboard, Circular Geoboard, Base Ten Blocks, and Fraction Board, which turn traditional topics into engaging problems for young students. Our series, designed for children aged 4 to 13, promotes knowledge and discovery through hands-on experience.</p>
         </div>

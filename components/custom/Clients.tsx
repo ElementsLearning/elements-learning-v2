@@ -3,12 +3,12 @@ import Marquee from "react-fast-marquee";
 export const Clients = () => {
   return (
     <section className="gap-4 md:gap-12 px-4 py-6 lg:py-10 lg:px-2 w-full flex flex-col">
-      <h3 className="px-4  text-2xl min-[900px]:text-4xl text-center font-bold uppercase">
+      <h3 className="px-4 text-2xl min-[900px]:text-4xl text-center font-bold uppercase">
         Our Clients
       </h3>
       <Marquee>
         {/* 1Silver Oaks */}
-        <div className="w-24 sm:w-44 md:64 lg:w-72 flex flex-col items-center justify-center">
+        <div className="w-24 sm:w-44 md:w-64 lg:w-72 flex flex-col items-center justify-center mx-4 sm:mx-6 md:mx-8 lg:mx-10 px-2 sm:px-4">
           <img
             src="/clients/sliveroaks.png"
             alt="Silver Oaks"
@@ -20,7 +20,7 @@ export const Clients = () => {
         </div>
 
         {/* 2APS */}
-        <div className="w-24 sm:w-44 md:64 lg:w-72 flex flex-col items-center justify-center">
+        <div className="w-24 sm:w-44 md:w-64 lg:w-72 flex flex-col items-center justify-center mx-4 sm:mx-6 md:mx-8 lg:mx-10 px-2 sm:px-4">
           <img
             src="/clients/aps.jpg"
             alt="APS"
@@ -32,19 +32,19 @@ export const Clients = () => {
         </div>
 
         {/* 7NClS */}
-        <div className="w-full flex flex-col items-center justify-center">
+        <div className="w-24 sm:w-44 md:w-64 lg:w-72 flex flex-col items-center justify-center mx-4 sm:mx-6 md:mx-8 lg:mx-10 px-2 sm:px-4">
           <img
             src="/clients/ncls.png"
             alt="Elementary"
             className="h-16 sm:h-20 md:h-24 lg:h-30 xl:h-48"
           />
           <p className="mt-2 text-sm sm:text-base text-center font-medium">
-            &nbsp;&nbsp;&nbsp; NUST Creative Learning School & College
+            NUST Creative Learning School & College
           </p>
         </div>
 
         {/* 3FGEL */}
-        <div className="w-24 sm:w-44 md:64 lg:w-72 flex flex-col items-center justify-center">
+        <div className="w-24 sm:w-44 md:w-64 lg:w-72 flex flex-col items-center justify-center mx-4 sm:mx-6 md:mx-8 lg:mx-10 px-2 sm:px-4">
           <img
             src="/clients/fgel.png"
             alt="FGEL"
@@ -56,7 +56,7 @@ export const Clients = () => {
         </div>
 
         {/* 4FDE */}
-        <div className="w-24 sm:w-44 md:64 lg:w-72 flex flex-col items-center justify-center">
+        <div className="w-24 sm:w-44 md:w-64 lg:w-72 flex flex-col items-center justify-center mx-4 sm:mx-6 md:mx-8 lg:mx-10 px-2 sm:px-4">
           <img
             src="/clients/Fde.jpg"
             alt="FDE"
@@ -67,8 +67,8 @@ export const Clients = () => {
           </p>
         </div>
 
-        {/* 5Read Foundation (Ye pehle se theek tha, bas thoda standardize kiya) */}
-        <div className="w-full flex flex-col items-center justify-center">
+        {/* 5Read Foundation */}
+        <div className="w-24 sm:w-44 md:w-64 lg:w-72 flex flex-col items-center justify-center mx-4 sm:mx-6 md:mx-8 lg:mx-10 px-2 sm:px-4">
           <img
             src="/clients/read.png"
             alt="Read Foundation"
@@ -78,8 +78,9 @@ export const Clients = () => {
             Read Foundation
           </p>
         </div>
+
         {/* 6Elementary */}
-        <div className="w-full flex flex-col items-center justify-center">
+        <div className="w-24 sm:w-44 md:w-64 lg:w-72 flex flex-col items-center justify-center mx-4 sm:mx-6 md:mx-8 lg:mx-10 px-2 sm:px-4">
           <img
             src="/clients/elementary.png"
             alt="Elementary"
@@ -91,7 +92,7 @@ export const Clients = () => {
         </div>
 
         {/* SAM */}
-        <div className="w-full flex flex-col items-center justify-center">
+        <div className="w-24 sm:w-44 md:w-64 lg:w-72 flex flex-col items-center justify-center mx-4 sm:mx-6 md:mx-8 lg:mx-10 px-2 sm:px-4">
           <img
             src="/clients/SAM.png"
             alt="Elementary"
@@ -103,7 +104,7 @@ export const Clients = () => {
         </div>
 
         {/* FQE */}
-        <div className="w-full flex flex-col items-center justify-center">
+        <div className="w-24 sm:w-44 md:w-64 lg:w-72 flex flex-col items-center justify-center mx-4 sm:mx-6 md:mx-8 lg:mx-10 px-2 sm:px-4">
           <img
             src="/clients/fqe.png"
             alt="Elementary"
@@ -115,8 +116,7 @@ export const Clients = () => {
         </div>
 
         {/* 9 Sir Syed Education Society */}
-
-        <div className="w-full flex flex-col items-center justify-center">
+        <div className="w-24 sm:w-44 md:w-64 lg:w-72 flex flex-col items-center justify-center mx-4 sm:mx-6 md:mx-8 lg:mx-10 px-2 sm:px-4">
           <img
             src="/clients/sses.png"
             alt="Elementary"
@@ -128,7 +128,7 @@ export const Clients = () => {
         </div>
 
         {/* Khudi 8 */}
-        <div className="w-full flex flex-col items-center justify-center">
+        <div className="w-24 sm:w-44 md:w-64 lg:w-72 flex flex-col items-center justify-center mx-4 sm:mx-6 md:mx-8 lg:mx-10 px-2 sm:px-4">
           <img
             src="/clients/Khudi.png"
             alt="Elementary"

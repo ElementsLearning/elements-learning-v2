@@ -10,6 +10,7 @@ import { studentAssessments } from "@/constants/studentAssessments";
 import { teacherAssessments } from "@/constants/teacherAssessment";
 import FlipCards from "../ScienceSection/Trainings/FlipCard";
 import { color } from "framer-motion";
+import AssessmentPuzzle from "@/components/custom/AssessmentPuzzle";
 
 const assessmentpoint = [{
   title: "1. Assessment for Learning (AfL)",
@@ -27,31 +28,37 @@ const sectionConfig: Record<string, {
   color: string;
   holisticImage: string;
   trackingImage: string;
+  classname?: string;
 }> = {
   Math: {
     color: "#FCBA42",
     holisticImage: "/assessment/goals/math.png",
-    trackingImage: "/assessment/tracking/math.png"
+    trackingImage: "/assessment/tracking/math.png",
+    classname: "size-full object-contain scale-125"
   },
   Science: {
     color: "#55088C50",
     holisticImage: "/assessment/goals/science.png",
-    trackingImage: "/assessment/tracking/science.png"
+    trackingImage: "/assessment/tracking/science.png",
+    classname: "size-full object-cover"
   },
   Language: {
     color: "#307F0150",
     holisticImage: "/assessment/goals/language.png",
-    trackingImage: "/assessment/tracking/language.png"
+    trackingImage: "/assessment/tracking/language.png",
+    classname: "size-full object-cover"
   },
   Ece: {
     color: "#DA037F50",
     holisticImage: "/assessment/goals/ece.png",
-    trackingImage: "/assessment/tracking/ece.png"
+    trackingImage: "/assessment/tracking/ece.png",
+    classname: "size-full object-cover"
   }
 }
 
 export const AssessmentsContent = ({ 
-    section = "Math" 
+    section = "Math"
+    // classname = "object-cover"
 }: {section?: string;}) => {
 
   // Section config ko resolve karein, agar nahi mila to Math ka use karein
@@ -71,7 +78,18 @@ export const AssessmentsContent = ({
           model integrates two globally recognized approaches:
         </p>
       </div>
-      <FlipCards data={assessmentpoint} columns={2} />
+      <AssessmentPuzzle
+              card1={{
+                title: "1. Assessment for Learning (AfL)",
+                description: "Real-time strategies that help teachers understand how students are learning during the lesson and adjust instruction immediately.",
+                color: "#9FD5B5"
+              }}
+              card2={{
+                title: "2. Learning for Mastery (LfM)",
+                description: "A structured approach that ensures children fully understand essential concepts before moving forward, strengthening long-term retention and confidence.",
+                color: "#9FD8EB"
+              }}
+            />
 
       <CustomAccordion
         containerClass={"w-full"}
@@ -114,7 +132,7 @@ export const AssessmentsContent = ({
                     <img
                       src={config.trackingImage}
                       alt={`${section} tracking system`}
-                      className="size-full object-cover"
+                      className={`${config.classname}`}
                     />
                   </SlidingDiv>
                   <SlidingDiv

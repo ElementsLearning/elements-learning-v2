@@ -38,55 +38,9 @@ export default function ResourceCenter() {
   return (
     <FadeIn threshold={0.01} className="flex flex-col w-full">
       <div className="relative pt-16  px-4 sm:px-6 lg:px-8">
-        {/* <div className="max-w-7xl mx-auto">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-            {stations.map((station) => (
-              <div
-                key={station.id}
-                className="group perspective"
-                onMouseEnter={() => setHoveredId(station.id)}
-                onMouseLeave={() => setHoveredId(null)}
-              >
-                <div
-                  className="relative h-48 rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-500 cursor-pointer border border-white/20 backdrop-blur-sm overflow-hidden"
-                  style={{
-                    backgroundColor: station.color,
-                    transform:
-                      hoveredId === station.id
-                        ? "translateY(-16px) scale(1.05)"
-                        : "translateY(0) scale(1)",
-                    transition: "all 500ms cubic-bezier(0.34, 1.56, 0.64, 1)",
-                  }}
-                >
-                  <div className="absolute inset-0 bg-gradient-to-br from-white/10 to-transparent pointer-events-none" />
-
-                  <div className="relative h-full flex flex-col justify-between">
-                    <div className="flex items-start justify-between">
-                      <div
-                        className="w-12 h-12 rounded-full flex items-center justify-center text-white font-bold text-lg shadow-lg"
-                        style={{ backgroundColor: "rgba(255,255,255,0.25)" }}
-                      >
-                        {station.id}
-                      </div>
-
-                      <div
-                        className="w-2 h-2 rounded-full opacity-60"
-                        style={{ backgroundColor: "rgba(255,255,255,0.6)" }}
-                      />
-                    </div>
-
-                    <div>
-                      <h3 className="text-lg font-bold text-white leading-snug">
-                        {station.title}
-                      </h3>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-          v
-        </div> */}
+       <div className="flex flex-col gap-4 text-base md:text-lg xl:text-xl p-4 xs:p-8 sm:p-12 lg:p-16 xl:p-20 xl:px-32">
+          <p>The ECE training program is designed to strengthen the foundational knowledge and practical skills of early childhood educators, coordinators, and parents. Through a blend of theory, hands-on activities, discussions, and classroom design exercises, participants develop a deep understanding of child development, effective adult roles, developmentally appropriate practices, and modern ECE approaches. By the end of the workshop, attendees are equipped to create nurturing, purposeful, and well-structured learning environments that support holistic growth in young children.</p>
+        </div>
         <img src="/ece.png" alt=" " className="size-full" draggable="false"/>
       </div>
       <div className="flex flex-col gap-4">
@@ -101,8 +55,7 @@ export default function ResourceCenter() {
               content: (
                 <div className="flex flex-col gap-4 py-2 xs:py-4 md:py-6 lg:py-8">
                   <p className="text-base md:text-lg xl:text-xl">
-                    We offer three packages in our Maths Labs. Each package is
-                    tailored to meet the diverse needs of schools and educators.
+                    We offer two packages in our ECE Resource Centre. Each package is tailored to support schools at different stages of early childhood implementation.
                   </p>
                   <div className="flex flex-col flex-wrap sm:flex-row gap-4">
                     {packages.map((pkg, i) => (

@@ -100,7 +100,7 @@ export const MultiCarousel: React.FC<MultiCarouselProps> = ({items, autoScroll=t
         paddingBottom: size/7, 
         borderRadius: `${size/12}px ${size/12}px 0px ${size/12}px`
       }}>
-        <p className="font-bold drop-shadow-md">
+        <p className="font-bold drop-shadow-md" >
           {items[index].name}
         </p>
         {items[index].additional && 

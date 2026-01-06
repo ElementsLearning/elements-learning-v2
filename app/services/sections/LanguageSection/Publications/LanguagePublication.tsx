@@ -164,14 +164,14 @@ export default function LanguagePublication() {
               ),
             },
             {
-              title: "Project Blueprint",
-              id: "Project Blueprint",
+              title: "Projects Blueprint",
+              id: "Projects Blueprint",
               content: (
                 <div className="py-2 xs:py-4 md:py-6 lg:py-8">
                   <div className="flex flex-col sm:flex-row gap-2">
                     <SlidingDiv
                       direction={"left"}
-                      className="sm:flex-[2_0_0] aspect-square bg-neutral-400"
+                      className="sm:flex-[2_0_0] bg-neutral-400"
                     >
                       <img
                         src="/projectblueprint/2.png"
@@ -184,14 +184,7 @@ export default function LanguagePublication() {
                       className="flex-[3_0_0] flex flex-col p-4 md:p-8 lg:p-10 xl:p-12 gap-4 lg:gap-6 xl:gap-8 text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl bg-[#F3EEE8]"
                     >
                       <p>
-                        Language Projects turn learning into tangible work that
-                        learners can show and share. Students research, plan,
-                        draft, and present to build thinking skills, clear
-                        expression, and confidence. The activities are fun and
-                        purposeful and help students cover approximately 5,000
-                        vocabulary items and core root words, strengthening
-                        fluency across listening, speaking, reading, and
-                        writing.
+                        Language Projects turn learning into tangible work that learners can show and share. Students research, plan, draft, and present to build thinking skills, clear expression, and confidence. The activities are fun and purposeful and help students cover approximately 5,000 vocabulary items and core root words, strengthening fluency across listening, speaking, reading, and writing.
                       </p>
                     </SlidingDiv>
                   </div>
