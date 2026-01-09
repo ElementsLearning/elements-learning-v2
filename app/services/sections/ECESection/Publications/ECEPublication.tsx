@@ -9,14 +9,15 @@ export default function ECEPublication() {
   return (
      <FadeIn
           threshold={0.01}
-          className="flex flex-col w-full p-4 xs:p-8 sm:p-12 lg:p-16 xl:p-20 xl:px-32"
+          className="flex flex-col  w-full p-4 xs:p-8 sm:p-12 lg:p-16 xl:p-20 xl:px-32"
         >
           <div className="flex flex-col gap-4">
-            <div className="flex flex-col gap-4 text-base md:text-lg xl:text-xl">
+            <div className="flex flex-col gap-6 text-base md:text-lg xl:text-xl">
               <p>
                At Elements Learning, our Early Childhood Education approach combines the philosophies of Reggio Emilia and Maria Montessori to create environments where children learn through exploration, creativity, and responsibility. Inspired by Reggio, our learning spaces are close to nature and enriched with open-ended “loose parts” that promote imagination and discovery. We view the environment as the “third teacher”—encouraging inquiry, collaboration, and problem-solving.
               </p>
               <p>Montessori principles provide structure and order through routines, organization, and self-directed care. The Reggio Emilia approach complements this with flexibility, creativity, and child-led inquiry. Together, they cultivate independent, confident learners who take ownership of their environment and learning journey.</p>
+              <img src="/eceIllustration.png" alt="" className="w-3/4 mx-auto rounded-lg "/>
             </div>
             <CustomAccordion
               color={"#DA037F50"}

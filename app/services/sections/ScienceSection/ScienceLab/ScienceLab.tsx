@@ -10,6 +10,7 @@ import { packages } from '@/constants/packages'
 import { sciencepackages } from '@/constants/sciencepakages'
 import React from 'react'
 import { Textbooks } from '../Publications/Textbooks'
+import { ScienceLabEvents } from '@/constants/sciencelabEvent'
 
 export default function ScienceLab() {
   return (
@@ -18,9 +19,9 @@ export default function ScienceLab() {
             <div className="flex flex-col gap-4 text-base md:text-lg xl:text-xl p-4 xs:p-8 sm:p-12 lg:p-16 xl:p-20 xl:px-32">
               <p>The Elements Learning (EL) Science Lab is a hands-on exploration space where students learn through observation, experimentation, and inquiry. Inspired by Faraday and Feynman, we encourage learners to see, touch, and test scientific ideas. Students work with real materials, conduct simple experiments, record findings, and use inductive reasoning to infer patterns and form explanations.</p>
             </div>
-            {/* <section className="p-4 sm:p-8 lg:p-12 bg-[#F3EEE8]">
-              <MultiCarousel items={MathLabEvents} />
-            </section> */}
+            <section className="p-4 sm:p-8 lg:p-12 bg-[#F3EEE8]">
+              <MultiCarousel items={ScienceLabEvents} />
+            </section>
             <CustomAccordion color="#55088C50" containerClass={"w-full p-4 xs:p-8 sm:p-12 lg:p-16 xl:p-20 xl:px-32"} type="multiple"
             items={[
               {

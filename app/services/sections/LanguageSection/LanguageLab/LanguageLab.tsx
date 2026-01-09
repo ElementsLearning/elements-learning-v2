@@ -5,13 +5,9 @@ import { FadeIn } from "@/components/custom/FadeIn";
 import { HexagonPlayButton } from "@/components/custom/HexagonPlayButton";
 import { MultiCarousel } from "@/components/custom/MultiCarousel";
 import { SlidingDiv } from "@/components/custom/SlidingDiv";
-import { MathLabEvents } from "@/constants/MathLabEvents";
-import { packages } from "@/constants/packages";
-import { sciencepackages } from "@/constants/sciencepakages";
 import React from "react";
-import { Textbooks } from "../../ScienceSection/Publications/Textbooks";
 import { languagepackages } from "@/constants/languagepackages";
-import { Link } from "lucide-react";
+import { LanguageLabEvents } from "@/constants/LanguageLabEvent";
 
 export default function LanguageLab() {
   return (
@@ -31,9 +27,9 @@ export default function LanguageLab() {
             }
           </p>
         </div>
-        {/* <section className="p-4 sm:p-8 lg:p-12 bg-[#F3EEE8]">
-              <MultiCarousel items={MathLabEvents} />
-            </section> */}
+        <section className="p-4 sm:p-8 lg:p-12 bg-[#F3EEE8]">
+              <MultiCarousel items={LanguageLabEvents} />
+            </section>
         <CustomAccordion
           color="#307F0150"
           containerClass={"w-full p-4 xs:p-8 sm:p-12 lg:p-16 xl:p-20 xl:px-32"}

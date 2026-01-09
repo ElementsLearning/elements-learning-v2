@@ -9,6 +9,8 @@ import { FadeIn } from "@/components/custom/FadeIn";
 import { HexagonPlayButton } from "@/components/custom/HexagonPlayButton";
 import { ContentCard } from "@/components/custom/ContentCard";
 import { packages } from "@/constants/EcePkgs";
+import { MultiCarousel } from "@/components/custom/MultiCarousel";
+import { EceLab } from "@/constants/EceLab";
 
 interface Station {
   id: number;
@@ -37,11 +39,25 @@ export default function ResourceCenter() {
 
   return (
     <FadeIn threshold={0.01} className="flex flex-col w-full">
-      <div className="relative pt-16  px-4 sm:px-6 lg:px-8">
-       <div className="flex flex-col gap-4 text-base md:text-lg xl:text-xl p-4 xs:p-8 sm:p-12 lg:p-16 xl:p-20 xl:px-32">
-          <p>The ECE training program is designed to strengthen the foundational knowledge and practical skills of early childhood educators, coordinators, and parents. Through a blend of theory, hands-on activities, discussions, and classroom design exercises, participants develop a deep understanding of child development, effective adult roles, developmentally appropriate practices, and modern ECE approaches. By the end of the workshop, attendees are equipped to create nurturing, purposeful, and well-structured learning environments that support holistic growth in young children.</p>
+      <div className="relative pt-16  ">
+        <div className="flex flex-col gap-4 text-base md:text-lg xl:text-xl p-4 xs:p-8 sm:p-12 lg:p-16 xl:p-20 xl:px-32">
+          <p>
+            The ECE training program is designed to strengthen the foundational
+            knowledge and practical skills of early childhood educators,
+            coordinators, and parents. Through a blend of theory, hands-on
+            activities, discussions, and classroom design exercises,
+            participants develop a deep understanding of child development,
+            effective adult roles, developmentally appropriate practices, and
+            modern ECE approaches. By the end of the workshop, attendees are
+            equipped to create nurturing, purposeful, and well-structured
+            learning environments that support holistic growth in young
+            children.
+          </p>
         </div>
-        <img src="/ece.png" alt=" " className="size-full" draggable="false"/>
+        <section className="p-4 sm:p-8 lg:p-12 bg-[#F3EEE8]">
+          <MultiCarousel items={EceLab} />
+        </section>
+        <img src="/ece.png" alt=" " className="size-full" draggable="false" />
       </div>
       <div className="flex flex-col gap-4">
         <CustomAccordion
@@ -55,7 +71,9 @@ export default function ResourceCenter() {
               content: (
                 <div className="flex flex-col gap-4 py-2 xs:py-4 md:py-6 lg:py-8">
                   <p className="text-base md:text-lg xl:text-xl">
-                    We offer two packages in our ECE Resource Centre. Each package is tailored to support schools at different stages of early childhood implementation.
+                    We offer two packages in our ECE Resource Centre. Each
+                    package is tailored to support schools at different stages
+                    of early childhood implementation.
                   </p>
                   <div className="flex flex-col flex-wrap sm:flex-row gap-4">
                     {packages.map((pkg, i) => (
@@ -96,7 +114,7 @@ export default function ResourceCenter() {
                         containerClass={"size-full relative"}
                         items={[
                           <img
-                          key={"1"}
+                            key={"1"}
                             alt=""
                             src="/eceLab/1.png"
                             className="size-full object-cover"
