@@ -13,7 +13,7 @@ import { TeamCard } from "./TeamCard";
 
 export default function About() {
   return (
-    <div className="flex flex-col w-screen overflow-hidden">
+    <div className="flex flex-col w-full overflow-hidden">
       <section className="bg-[#F3EEE8] p-2 xs:p-8 w-full flex flex-col-reverse min-[400px]:flex-row  min-[400px]:gap-4 lg:gap-20 justify-center items-center">
         <StaggeredHeaders headers={["About Us"]} containerClass="text-3xl min-[400px] text-4xl sm:text-6xl lg:text-9xl font-bold" direction="left" />
         <div className="max-w-[200px] sm:max-w-[400px] md:max-w-[400px] lg:max-w-[600px]">
@@ -43,7 +43,6 @@ export default function About() {
         <div className="rounded-md flex flex-col md:flex-row lg:flex-col gap-12 xs:gap-8 md:gap-8 justify-end items-end">
           <div className="max-w-96">
             <VideoPlayer src="/animations/team.mp4" className="size-full" />
-            {/* <img src="/landingpage/services.png" alt="" /> */}
           </div>
           
           <SlidingDiv direction="bottom" repeat={true} className="flex flex-col xl:gap-2 max-w-96 xl:text-right">
@@ -58,7 +57,7 @@ export default function About() {
         </ScrollArea>
       </section>
       <Partners />
-      <Clients />      
+      <Clients />
       <Footer />
     </div>
   )

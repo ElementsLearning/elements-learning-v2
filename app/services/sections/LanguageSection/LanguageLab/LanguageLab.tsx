@@ -155,7 +155,7 @@ export default function LanguageLab() {
                         containerClass={"size-full relative"}
                         items={[
                           <img
-                          key={"1"}
+                            key={"1"}
                             alt=""
                             src="/WhoAmI/OWL.png"
                             className="size-full object-cover"
@@ -182,14 +182,14 @@ export default function LanguageLab() {
               ),
             },
             {
-              title: "Project Blueprint",
-              id: "Project Blueprint",
+              title: "Projects Blueprint",
+              id: "Projects Blueprint",
               content: (
                 <div className="py-2 xs:py-4 md:py-6 lg:py-8">
                   <div className="flex flex-col sm:flex-row gap-2">
                     <SlidingDiv
                       direction={"left"}
-                      className="sm:flex-[2_0_0] aspect-square bg-neutral-400"
+                      className="sm:flex-[2_0_0] bg-neutral-400"
                     >
                       <img
                         src="/projectblueprint/2.png"

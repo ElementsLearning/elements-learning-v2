@@ -45,8 +45,9 @@ export default function AssessmentPuzzle({
               style={{
                 backgroundColor: card1.color,
                 backfaceVisibility: "hidden",
-                clipPath:
-                  "polygon(0 0, 92% 0, 100% 50%, 92% 100%, 0 100%)",
+                clipPath:window.innerWidth >= 768 ?
+                  "polygon(0 0, 92% 0, 100% 50%, 92% 100%, 0 100%)" :
+                  "none",
                 borderTopLeftRadius: "1.5rem",
                 borderBottomLeftRadius: "1.5rem",
               }}
@@ -62,8 +63,9 @@ export default function AssessmentPuzzle({
               style={{
                 transform: "rotateY(180deg)",
                 backfaceVisibility: "hidden",
-                clipPath:
-                  "polygon(0 0, 92% 0, 100% 50%, 92% 100%, 0 100%)",
+                clipPath: window.innerWidth >= 768 ?
+                  "polygon(0 0, 92% 0, 100% 50%, 92% 100%, 0 100%)" :
+                  "none",
                 borderTopLeftRadius: "1.5rem",
                 borderBottomLeftRadius: "1.5rem",
               }}
@@ -96,8 +98,9 @@ export default function AssessmentPuzzle({
               style={{
                 backgroundColor: card2.color,
                 backfaceVisibility: "hidden",
-                clipPath:
-                  "polygon(8% 0, 100% 0, 100% 100%, 8% 100%, 0 50%)",
+                clipPath: window.innerWidth >= 768 ?
+                  "polygon(8% 0, 100% 0, 100% 100%, 8% 100%, 0 50%)" :
+                  "none",
                 borderTopRightRadius: "1.5rem",
                 borderBottomRightRadius: "1.5rem",
               }}
@@ -113,8 +116,9 @@ export default function AssessmentPuzzle({
               style={{
                 transform: "rotateY(180deg)",
                 backfaceVisibility: "hidden",
-                clipPath:
-                  "polygon(8% 0, 100% 0, 100% 100%, 8% 100%, 0 50%)",
+                clipPath: window.innerWidth >= 768 ?
+                  "polygon(8% 0, 100% 0, 100% 100%, 8% 100%, 0 50%)" :
+                  "none",
                 borderTopRightRadius: "1.5rem",
                 borderBottomRightRadius: "1.5rem",
               }}
