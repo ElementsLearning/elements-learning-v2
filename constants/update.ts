@@ -117,7 +117,7 @@ export const updates: Update[] = [
     content:
       "Elements Learning successfully established Mathematics Labs in fifty Federal Directorate of Education schools across both urban and rural areas. Alongside the lab installations, teachers were trained on effective lab utilization to enhance mathematical learning environments. These initiatives were led by Mr. Mohiudin Wani.",
     date: "June, 2025",
-    src: "/clients/fde.jpg",
+    src: "/News&Updates/Updates/fdelogo.jpg",
   },
   {
     title: "EL Publishes Language Teacher Manuals",
@@ -144,7 +144,7 @@ export const updates: Update[] = [
     content:
       "Elements Learning established Mathematics Labs in ten schools under the Federal Directorate of Education as part of the Education Transformation initiatives led by Mr. Mohiudin Wani. The labs support improved teaching through structured resources and hands-on exploration.",
     date: "January, 2025",
-    src: "/clients/fde.jpg",
+    src: "/News&Updates/Updates/fdelogo.jpg",
   }, {
     title: "Federal Directorate of Education and NUST Creative Learning School Teacher Training ",
     content:
