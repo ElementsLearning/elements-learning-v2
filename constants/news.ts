@@ -67,7 +67,7 @@ export const news: News[] = [
     title:"Next-Gen Impact Consulting - Visit to Khudi Institute" ,
     desc: "Dr. Shagufta Jabeen, Founder and CEO of Next-Gen Impact (NGI) Consulting, along with Project Director Wing Commander (R) Nadeem and their team, visited the Khudi Institute to observe the implementation of the Elements Learning academic solution. The team explored how EL’s curriculum and learning systems are being used on-site and shared constructive feedback to support ongoing improvement and future collaboration.",
     date: "December, 2025",
-    src: "/News&Updates/News/9.jpg",
+    src: "/News&Updates/News/9.JPG",
   },
   {
     title: "READ Foundation – Product Showcase & Discussion",
@@ -85,19 +85,19 @@ export const news: News[] = [
     title: "Silver Oaks International Education Services Leadership Visit",
     desc: "A leadership team from Silver Oaks International Education Services (SOIES), led by Managing Director Mr. Hassan Sattar, visited the Khudi Institute to observe the live implementation of the Elements Learning academic solution. The delegation, which included the Principal and Lead Experts in Science and Early Childhood Education (ECE), observed classroom practices to evaluate how EL’s pedagogy supports holistic learning and curriculum alignment.",
     date: "October, 2025",
-    src: "/News&Updates/News/12.jpg",
+    src: "/News&Updates/News/12.JPG",
   },
   {
     title: "Visit by Mr. Zulfiqar Qazilbash",
     desc: "Mr. Zulfiqar Qazilbash, bringing experience from the National Digital and Innovation in Education Strategy, visited the Khudi Institute. He also served as an Education Technology Specialist to the Federal Ministry from 2021 to 2024. The visit focused on observing the Elements Learning academic solution in action, exploring its alignment with national innovation strategies, and assessing its potential for scalable educational impact.",
     date: "October, 2025",
-    src: "/News&Updates/News/13.jpg",
+    src: "/News&Updates/News/13.JPG",
   },
   {
     title: "Mr. Karl Maas Yogi – Advisor Visit to Khudi Institute",
     desc: "Mr. Karl Maas Yogi, Elements Learning’s Advisor for Science & Technology Alignment, visited the Khudi Institute to observe the live implementation of the Elements Learning academic solution. A German national with extensive global corporate experience (including Mercedes-Benz), he focused on seeing how the curriculum is delivered in the classroom. His work centers on aligning EL’s Science and Technology framework with international standards, particularly German educational benchmarks.",
     date: "August, 2025",
-    src: "/News&Updates/News/14.jpg",
+    src: "/News&Updates/News/14.JPG",
   },
   {
     title: "Federal Directorate of Education – 50 Math Labs & Training Rollout",
@@ -138,7 +138,7 @@ export const news: News[] = [
     title: "FGEI (ICG F-6/2) – Two-Day Math Training",
     desc: "Elements Learning conducted a two-day mathematics training for FGEI teachers at Islamabad College for Girls (ICG), F-6/2. More than 60 teachers participated in hands-on practice with CPA strategies and activity-based instruction. The training aimed to strengthen classroom delivery and concept clarity.",
     date: "March, 2024",
-    src: "/News&Updates/News/21.jpg",
+    src: "/News&Updates/News/21.JPG",
   },
   {
     title: "Knowledge Platform – EL Visit & Collaboration Dialogue",
@@ -156,7 +156,7 @@ export const news: News[] = [
     title: "Federal Directorate of Education – Math Lab & Teacher Training",
     desc: "Elements Learning established Math Labs in 10 Federal Directorate of Education schools under initiatives led by Mr. Mohiudin Wani. A three-day training was conducted for 60+ teachers on lab utilization and math concept delivery. The rollout supported improved teaching practices across the selected FDE schools.",
     date: "January, 2024",
-    src: "/News&Updates/News/24.jpg",
+    src: "/News&Updates/News/24.JPG",
   },
   {
     title: "FGEI Directorate – Sensitization Training Session",
@@ -168,43 +168,43 @@ export const news: News[] = [
     title: "FGEI Directorate – Leadership Visit to EL",
     desc: "A team from the Federal Government Educational Institutions (FGEI) Directorate visited the Elements Learning office at NUST. The visit focused on EL’s math labs, manuals, and training ecosystem, along with discussions on possible collaboration opportunities across FGEI schools.",
     date: "December, 2023",
-    src: "/News&Updates/News/26.jpg",
+    src: "/News&Updates/News/26.JPG",
   },
   {
     title: "Character Education Foundation (CEF), CEO Visit to EL",
     desc: "Syed Muhammad Mansoor Shakil, CEO of CEF, visited the Elements Learning office at NUST along with his team. The engagement centered on EL’s instructional approach, product ecosystem, and possible collaboration avenues for education-focused initiatives.",
     date: "December, 2023",
-    src: "/News&Updates/News/27.jpg",
+    src: "/News&Updates/News/27.JPG",
   },
   {
     title: "Chiniot Public Schools – Math Training Session",
     desc: "Elements Learning delivered a mathematics training session in Chiniot for a network of public schools, engaging more than 50 teachers. The workshop focused on strengthening math instruction and supporting classroom implementation across the system.",
     date: "November, 2023",
-    src: "/News&Updates/News/28.jpg",
+    src: "/News&Updates/News/28.JPG",
   },
   {
     title: "SLS School – Leadership & Teacher Engagement Visit",
     desc: "The principal and teachers of SLS School visited Elements Learning to learn about EL’s pedagogy, math labs, and learning products. They explored how EL’s resources could integrate into their classrooms and showed strong interest in future engagement. The visit opened pathways for potential collaboration.",
     date: "November, 2023",
-    src: "/News&Updates/News/29.jpg",
+    src: "/News&Updates/News/29.JPG",
   },
   {
     title: "Jhang Public Schools – Math Training Session",
     desc: "Elements Learning conducted a mathematics training session for public schools in the Jhang–Chiniot region, engaging more than 50 teachers. The session centered on strengthening concept delivery, using structured CPA techniques and hands-on instructional practices.",
     date: "November, 2023",
-    src: "/News&Updates/News/30.jpg",
+    src: "/News&Updates/News/30.JPG",
   },
   {
     title: "Attock Public Schools – Math Training Session",
     desc: "Elements Learning conducted a mathematics training session for the network of public schools in Attock, engaging more than 50 teachers. The session focused on strengthening math concept delivery and supporting classroom practice across participating schools.",
     date: "November, 2023",
-    src: "/News&Updates/News/31.jpg",
+    src: "/News&Updates/News/31.JPG",
   },
   {
     title: "Attock Administration – Assistant Commissioner Visit",
     desc: "Assistant Commissioner Syeda Humaira Shah visited the Elements Learning office at NUST. The visit provided an opportunity to share EL’s work, learning solutions, and ongoing initiatives. Discussions included potential collaboration areas for education support in the Attock region.",
     date: "October, 2023",
-    src: "/News&Updates/News/32.jpg",
+    src: "/News&Updates/News/32.JPG",
   },
   {
     title: "Dr. Tariq H. Cheema – Courtesy Visit to Elements Learning",
@@ -222,7 +222,7 @@ export const news: News[] = [
     title: "Gilgit-Baltistan Schools – Math Teacher Training",
     desc: "Elements Learning delivered a two-day math training for public school teachers in Gilgit-Baltistan, engaging over 50 educators. The workshop focused on strengthening foundational math concepts through CPA and activity-based teaching methods.",
     date: "October, 2023",
-    src: "/News&Updates/News/35.jpg",
+    src: "/News&Updates/News/35.JPG",
   }
 ].sort((a: News, b: News) => {
   const dateA = new Date(a.date).getTime();

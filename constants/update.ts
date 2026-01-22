@@ -60,7 +60,7 @@ export const updates: Update[] = [
     content:
       "Elements Learning has released its Language Projects Blueprints, offering structured, classroom-ready frameworks for developing reading, writing, speaking, and critical thinking skills. These blueprints guide educators in implementing project-based language learning aligned with developmental stages. The resource emphasizes real-world application, creativity, and learner agency across primary and middle grades",
     date: "December, 2025",
-    src: "/news&updates/updates/1.png",
+    src: "/News&Updates/Updates/1.png",
   },
   {
     title: "EL Launches Its Own LMS and Foundational Math for Educators Course",
@@ -74,21 +74,21 @@ export const updates: Update[] = [
     content:
       "Elements Learning has released its ECE Teachers Manual, a comprehensive, classroom-ready guide grounded in the philosophies of Reggio Emilia and Maria Montessori. The manual supports early childhood educators in designing meaningful, child-centered learning environments that encourage exploration, independence, and creativity. It provides practical strategies for observation-based teaching, purposeful play, and hands-on activities aligned with developmental stages. The resource emphasizes learner agency, sensory learning, and strong teacher–child interactions to build a solid foundation for lifelong learning in early years classrooms.",
     date: "October, 2025",
-    src: "/news&updates/updates/3.jpg",
+    src: "/News&Updates/Updates/3.jpg",
   },
   {
     title: "EL Publishes “Who Am I?” Student Journal",
     content:
       "The Who Am I? Journal is a reflective student workbook that strengthens self-expression, comprehension, and writing fluency. Through guided prompts, mini-projects, and personal storytelling tasks, students explore identity, emotions, and everyday experiences in both their home language and English. This journal connects language learning to real life, helping children use words as tools for understanding themselves, their relationships, and the world around them.",
     date: "September, 2025",
-    src: "/news&updates/updates/4.jpg",
+    src: "/News&Updates/Updates/4.jpg",
   },
   {
     title: "EL Publishes Project-Based Learning Blueprint (Grades 1–5)",
     content:
       "A structured and holistic PBL framework featuring more than 200 projects for Grades 1–5. Each blueprint is an adaptable template aligned with Student Learning Outcomes (SLOs) across the intellectual, spiritual, physical, and aesthetic dimensions. Integrating Hunter’s Direct Instruction with Project-Based Learning, the framework provides objectives, prerequisite knowledge, materials, step-by-step instructions, assessment criteria, facilitation notes, and reflection prompts.",
     date: "August, 2025",
-    src: "/news&updates/updates/5.png",
+    src: "/News&Updates/Updates/5.png",
   },
   {
     title: "Basic Mathematics Labs in Sir Syed Education Society",
@@ -109,7 +109,7 @@ export const updates: Update[] = [
     content:
       "Elements Learning conducted division-wise teacher training on mathematics concepts and delivery for the Government schools of Azad Jammu and Kashmir, where Elements Learning math books for Grades 1, 2, and 3 were implemented. The program spanned three weeks and included two-day sessions in each division focusing on effective mathematics instruction.",
     date: "July, 2025",
-    src: "/news&updates/updates/8k.jpg",
+    src: "/News&Updates/Updates/8k.jpg",
   },
   {
     title:
@@ -124,14 +124,14 @@ export const updates: Update[] = [
     content:
       "The Elements Learning Language Manuals are designed to build strong foundational skills in listening, speaking, reading, and writing through structured, child-centered instructional pathways. Each manual combines clear lesson flows, vocabulary scaffolds, interactive activities, and teacher-friendly guidance to support language development across grade levels.",
     date: "June, 2025",
-    src: "/news&updates/updates/10.jpg",
+    src: "/News&Updates/Updates/10.jpg",
   },
   {
     title: "EL Publishes Science Lab Manual for Grades 3 to 8",
     content:
       "A fresh addition to the Elements Learning Science Lab Manual series, designed to ignite curiosity through hands-on learning. Aligned with the National Curriculum of Pakistan, it provides a structured pathway to key SLOs using simple experiments, real-life examples, and vivid illustrations to build strong scientific concepts.",
     date: "May, 2025",
-    src: "/news&updates/updates/11.jpg",
+    src: "/News&Updates/Updates/11.jpg",
   },
   {
     title: "Elements Learning Announces Academic Partnership with Khudi Institute ",
@@ -150,13 +150,13 @@ export const updates: Update[] = [
     content:
       "Elements Learning conducted mathematics training in ten FDE schools and NUST Creative Learning School, focusing on the Concrete–Pictorial–Abstract (CPA) approach and Mathematics Lab utilization, under the initiatives led by Mr. Mohiudin Wani.",
     date: "January, 2025",
-    src: "/news&updates/updates/14.jpg",
+    src: "/News&Updates/Updates/14.JPG",
   }, {
     title: "MS Office Workshop",
     content:
       "The Elements Learning team conducted a two-day MS Office Workshop led by Sir Irfan Sarfraz, Chief Knowledge Officer. The workshop focused on strengthening essential digital skills through practical, hands-on training across core MS Office tools.",
     date: "December, 2023",
-    src: "/news&updates/updates/15.jpg",
+    src: "/News&Updates/Updates/15.JPG",
   },
   {
     title:
@@ -164,7 +164,7 @@ export const updates: Update[] = [
     content:
       'Sir Irfan Sarfraz, Chief Knowledge Officer, conducted a "Learning Through Life" session at the National University of Sciences and Technology. The session engaged participants in exploring how continuous learning shapes personal and professional development within academic and real-life contexts.',
     date: "October, 2023",
-    src: "/news&updates/updates/16.jpg",
+    src: "/News&Updates/Updates/16.JPG",
   }
 ].sort((a: Update, b: Update) => {
   const dateA = a.date ? new Date(a.date).getTime() : 0;
