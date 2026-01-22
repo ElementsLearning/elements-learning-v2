@@ -138,7 +138,7 @@ export const updates: Update[] = [
     content:
       "Elements Learning has entered into an academic partnership with Khudi Institute to implement its full academic solution. Khudi will integrate EL’s structured curriculum, learning resources, and pedagogical frameworks to strengthen classroom instruction, reflecting a shared commitment to high-quality, child-centered education.",
     date: "April, 2025",
-    src: "/clients/khudi.png",
+    src: "/clients/Khudi.png",
   }, {
     title: "Establishment of Mathematics Labs in 10 Federal Directorate of Education Schools",
     content:
