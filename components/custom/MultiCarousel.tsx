@@ -68,7 +68,7 @@ export const MultiCarousel: React.FC<MultiCarouselProps> = ({items, autoScroll=t
     {opened && <div onClick={() => setOpened(false)} className="fixed inset-0 bg-black/80 z-50 flex justify-center items-center">
       <div className="w-11/12 md:w-10/12 lg:w-3/4 ">
         <CarouselSingle containerClass={"size-full aspect-[3/2]"} 
-        items={items[index].gallery.map((src) => 
+        items={items[index]!.gallery!.map((src) => 
           <div key={src} className="size-full flex flex-col justify-center">
             <img onClick={(e) => e.stopPropagation()} src={src} alt="" className="w-full bg-neutral-400" />
           </div>
@@ -125,14 +125,14 @@ export const MultiCarousel: React.FC<MultiCarouselProps> = ({items, autoScroll=t
                 <source src={item.src} type="video/mp4" />
                   Your browser does not support the video tag.
               </video>}
-              {item.gallery.length > 0 &&
+              {item!.gallery!.length > 0 &&
               <div className="absolute hidden md:flex inset-0 overflow-hidden bg-black/75 translate-y-full group-hover:translate-y-0 transition-all duration-300 flex-col justify-end xs:p-1 sm:p-2 md:p-3 lg:p-4 xl:p-6 xs:gap-1 md:gap-2">
                 <div className="text-[#FCBA42] font-bold text-xs sm:text-sm md:text-lg lg:text-xl xl:text-2xl flex lg:gap-1 items-center">
                   <p><span className="hidden md:inline-block">Click to</span> View More</p>
                   <ArrowRightIcon className="size-2 md:size-4" />
                 </div>
                 <div className="flex justify-between gap-2 h-1/5 w-full">
-                  {item.gallery.map(src => 
+                  {item!.gallery!.map(src => 
                     <img key={src} src={src} alt="" className="" />
                   )}
                 </div>
