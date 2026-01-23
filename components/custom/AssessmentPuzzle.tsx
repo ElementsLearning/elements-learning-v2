@@ -69,7 +69,7 @@ export default function AssessmentPuzzle({
                   "polygon(0 0, 92% 0, 100% 50%, 92% 100%, 0 100%)" :
                   "none",
                 borderTopLeftRadius: "1.5rem",
-                borderColor:"#FCBA42",
+                borderColor:`[${card1.colorcardborder}]`,
                 borderBottomLeftRadius: "1.5rem",
               }}
             >
@@ -123,7 +123,7 @@ export default function AssessmentPuzzle({
                   "polygon(8% 0, 100% 0, 100% 100%, 8% 100%, 0 50%)" :
                   "none",
                 borderTopRightRadius: "1.5rem",
-                borderColor:"#fac570",
+                borderColor:`[${card2.colorcardborder}]`,
                 borderBottomRightRadius: "1.5rem",
               }}
             >
