@@ -1,7 +1,7 @@
 import { sciencetraining } from "@/constants/ScienceTraining";
 import { useState } from "react";
 
-export default function FlipCards({data, columns = 4}: {data:any[], columns?:Number}) {
+export default function FlipCards({data, columns}: {data:any[], columns?:Number}) {
   const [activeCard, setActiveCard] = useState<number | null>(null);
 
   const handleCardClick = (index: number) => {
@@ -18,7 +18,7 @@ export default function FlipCards({data, columns = 4}: {data:any[], columns?:Num
           {data.map((training, index) => (
             <FlipCard 
               
-              key={index} 
+              key={index}
               title={training.title} 
               description={training.description}
               color={training.color}

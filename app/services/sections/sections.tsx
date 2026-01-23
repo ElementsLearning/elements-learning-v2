@@ -119,7 +119,7 @@ export const sections: Section[] =
     // content: <ScienceContent />
   },
   {
-    name: "Language",
+    name: "Languages",
     serviceName: "language",
     color: "#307F0150",
     src: "/landingpage/language.png",
@@ -143,7 +143,7 @@ export const sections: Section[] =
         content: <LanguageLab />
       },
       {
-        name: "WorldGame Manipulatives",
+        name: "Word Games and Manipulatives",
         src: "/whatweofferpage/language/worldgame.png",
         tabName: "manipulatives",
         content: <LanguageManipulative />

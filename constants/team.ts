@@ -60,6 +60,11 @@ export const team: TeamMember[] = [
     designation: "Business Development Manager",
     corner: "br",
   },
+  {
+    name: "Memoona Ahmad",
+    designation: "Maths Researcher",
+    corner: "br",
+  },
 
   {
     name: "Darjat Muhammad",
@@ -92,9 +97,5 @@ export const team: TeamMember[] = [
     designation: "Logistics Coordinator",
     corner: "br",
   },
-  {
-    name: "Memoona Ahmad",
-    designation: "Maths Researcher",
-    corner: "br",
-  },
+  
 ];

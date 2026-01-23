@@ -21,7 +21,11 @@ export const testimonials: Testimonial[] = [
     quote: "As a parent attending the Science Mela in Lahore, I was thoroughly impressed by the interactive and engaging exhibits presented by Elements Learning. The hands-on math tools and manipulatives on display captivated my child's interest immediately. It was incredible to see how effortlessly the students engaged with the tools, eagerly exploring and experimenting with various concepts. I commend Elements Learning for their innovative approach to education and their commitment to inspiring young minds"
   },
   {
-    person:"Director, Directorate of Education Extension (Muzaffarabad)",
+    person:"Director, Directorate of Education Extension - Muzaffarabad, Azad Jammu and Kashmir, Pakistan",
     quote: "We extend our sincere appreciation for your organization's outstanding contribution in conducting the orientation sessions on the newly developed textbooks for the subject of Mathematics (Grades 1-3), across 10 districts of Azad Jammu and Kashmir. Your team's expertise and steadfast support have played a vital role in enhancing the professional capacity of the elementary teachers. We are truly grateful for your dedication, tireless efforts, and strong commitment to advancing education in AJ&K.",
+  },
+  {
+    person:"Principal, Sir Syed School Campus VII & IX - Wah Cantonment, Pakistan",
+    quote: "It has been a wonderful experience working with Elements Learning. Your commitment to quality education, professional approach, and consistent support truly set you apart. The learning resources and guidance provided have had a meaningful and positive impact. Integrating mathematics manipulatives into our classrooms has truly brought learning to life, fostering active participation and engagement among students. In particular, base ten blocks and tangrams have added color, creativity, and hands-on understanding, making mathematical concepts easier and more enjoyable for students.",
   }
 ]

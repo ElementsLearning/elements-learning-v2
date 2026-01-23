@@ -54,10 +54,10 @@ export default function ResourceCenter() {
             children.
           </p>
         </div>
+        <img src="/ece.png" alt=" " className="size-full" draggable="false" />
         <section className="p-4 sm:p-8 lg:p-12 bg-[#F3EEE8]">
           <MultiCarousel items={EceLab} />
         </section>
-        <img src="/ece.png" alt=" " className="size-full" draggable="false" />
       </div>
       <div className="flex flex-col gap-4">
         <CustomAccordion

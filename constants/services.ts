@@ -21,7 +21,7 @@ export const services: Service[] = [
     color: "#D36E0850"
   },
   {
-    title: "Language",
+    title: "Languages",
     disabled: false,
     content: " Promoting multilingual education by starting with the mother tongue and transitioning to additional languages, fostering cultural richness and effective communication skills.",
     illustrationSrc: "/landingpage/language.png",

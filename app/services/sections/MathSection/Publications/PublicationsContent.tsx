@@ -311,6 +311,47 @@ export const PublicationsContent = () => {
                 </div>
               ),
             },
+            {
+            title: "Lab Manuals",
+            id: "Lab Manuals",
+            content: 
+            <div className="py-2 xs:py-4 md:py-6 lg:py-8">
+              <div className="flex flex-col sm:flex-row gap-2">
+                <SlidingDiv direction={"left"} className="sm:flex-[2_0_0] aspect-[3/4] -blue-950">
+                  <CarouselSingle containerClass={"size-full"} items={[
+                         <div key={`mathLabCover-1`} className="p-3">
+                          <img src="/MathLabCover/0.png" alt="" className="size-full shadow-lg shadow-slate-400" />
+                        </div>,
+                        <div key={`mathLabCover-1`} className="p-3">
+                          <img src="/MathLabCover/1.png" alt="" className="size-full shadow-lg shadow-slate-400" />
+                        </div>,
+                        <div key={`mathLabCover-2`} className="p-3">
+                          <img src="/MathLabCover/2.png" alt="" className="size-full shadow-lg shadow-slate-400" />
+                        </div>,
+                        <div key={`mathLabCover-3`} className="p-3">
+                          <img src="/MathLabCover/3.png" alt="" className="size-full shadow-lg shadow-slate-400" />
+                        </div>,
+                        <div key={`mathLabCover-4`} className="p-3">
+                          <img src="/MathLabCover/4.png" alt="" className="size-full shadow-lg shadow-slate-400" />
+                        </div>,
+                        <div key={`mathLabCover-5`} className="p-3">
+                          <img src="/MathLabCover/5.png" alt="" className="size-full shadow-lg shadow-slate-400" />
+                        </div>,
+                    ]}
+                    nextButton={
+                      <div className="size-10 lg:size-16 pr-2 xs:pr-0">
+                        <HexagonPlayButton outerColor={"#FCBA42"} innerColor={"#FFFFFF"}/>
+                      </div>
+                    } />
+                </SlidingDiv>
+                <SlidingDiv direction={"bottom"} className="flex-[3_0_0] flex flex-col  p-4 md:p-8 lg:p-10 xl:p-12 gap-4 lg:gap-6 xl:gap-8 text-xs sm:text-sm md:text-base xl:text-lg">
+                  <h3 className="text-left ttext-xs sm:text-sm md:text-base lg:text-lg xl:text-xl text-[#FBBA41] font-bold">{`Our Math Lab Manuals serve as invaluable teacher's guides, meticulously designed to help educators utilize the tools and manipulatives included in our Math Lab packages.`}</h3>
+                  <p>These manuals are crafted to provide clear, step-by-step instructions on teaching specific math concepts through hands-on activities, ensuring that both teachers and students get the most out of their math learning experience.</p>
+                  <p>Each Math Lab Manual is grade-specific and aligned with the National Curriculum (NC) to fulfill defined SLOs.</p>
+                </SlidingDiv>
+              </div>
+            </div>
+          },
           ]}
         />
       </div>

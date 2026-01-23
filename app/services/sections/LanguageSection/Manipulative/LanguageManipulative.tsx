@@ -1,5 +1,13 @@
 import { FadeIn } from '@/components/custom/FadeIn'
 import React from 'react'
+import ImageRow from './Gallery'
+
+const images = [
+  { src: "/flashcard/1.JPG", alt: "Image 1" },
+  { src: "/flashcard/2.JPG", alt: "Image 2" },
+  { src: "/flashcard/3.JPG", alt: "Image 3" },
+  { src: "/flashcard/4.JPG", alt: "Image 4" },
+]
 
 export default function LanguageManipulative() {
   return (
@@ -8,7 +16,12 @@ export default function LanguageManipulative() {
             <div className="flex flex-col gap-4 text-base md:text-lg xl:text-xl">
               <p>Our Language Manipulatives include the hands-on materials used in our Word Games. These are picture cards, alphabet tiles, vocabulary cards, sentence-building strips, sorting mats, and other small group tools that support listening, speaking, reading, and writing. Students handle, arrange, match, sort, and build words and sentences, allowing language to be learned through active play rather than memorization. These materials encourage participation, help reinforce sound–symbol relationships, and make vocabulary and sentence structure visible, touchable, and easy to practice.</p>
             </div>
+            <ImageRow images={images} />
           </div>
         </FadeIn>
   )
 }
+
+
+
+

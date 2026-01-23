@@ -3,7 +3,7 @@ export type Event = {
   innerColor: string
   color: string
   src: string
-  gallery: string[]
+  gallery?: string[]
   additional?: {
     date: string
     desc?: string

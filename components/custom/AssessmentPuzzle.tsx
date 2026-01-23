@@ -9,12 +9,14 @@ export default function AssessmentPuzzle({
   card1: {
     title: string
     description: string
-    color: string
+    colorcardbg: any
+    colorcardborder: any
   }
   card2: {
     title: string
     description: string
-    color: string
+    colorcardbg: any
+    colorcardborder: any
   }
 }) {
   const [flippedCard1, setFlippedCard1] = useState(false)
@@ -33,7 +35,7 @@ export default function AssessmentPuzzle({
           onTouchStart={() => setFlippedCard1(!flippedCard1)}
         >
           <div
-            className="relative w-64 h-64 sm:w-72 sm:h-72 md:w-96 md:h-96 transition-transform duration-700"
+            className="relative w-64 h-64 sm:w-72 sm:h-72 md:w-96 md:h-76 transition-transform duration-700"
             style={{
               transformStyle: "preserve-3d",
               transform: flippedCard1 ? "rotateY(180deg)" : "rotateY(0deg)",
@@ -41,9 +43,9 @@ export default function AssessmentPuzzle({
           >
             {/* FRONT */}
             <div
-              className="absolute inset-0 flex items-center justify-cente shadow-2xl"
+              className="absolute inset-0 flex items-center"
               style={{
-                backgroundColor: card1.color,
+                backgroundColor: card1.colorcardbg,
                 backfaceVisibility: "hidden",
                 clipPath:window.innerWidth >= 768 ?
                   "polygon(0 0, 92% 0, 100% 50%, 92% 100%, 0 100%)" :
@@ -59,7 +61,7 @@ export default function AssessmentPuzzle({
 
             {/* BACK */}
             <div
-              className="absolute inset-0 flex items-center justify-center bg-white shadow-2xl px-6"
+              className={`absolute inset-0 flex items-center justify-center bg-white px-6 border-4 border-[${card1.colorcardborder}]`}
               style={{
                 transform: "rotateY(180deg)",
                 backfaceVisibility: "hidden",
@@ -67,10 +69,11 @@ export default function AssessmentPuzzle({
                   "polygon(0 0, 92% 0, 100% 50%, 92% 100%, 0 100%)" :
                   "none",
                 borderTopLeftRadius: "1.5rem",
+                borderColor:"#FCBA42",
                 borderBottomLeftRadius: "1.5rem",
               }}
             >
-              <p className="text-sm sm:text-base md:text-lg text-center px-12">
+              <p className="text-sm sm:text-base md:text-lg px-10">
                 {card1.description}
               </p>
             </div>
@@ -86,7 +89,7 @@ export default function AssessmentPuzzle({
           onTouchStart={() => setFlippedCard2(!flippedCard2)}
         >
           <div
-            className="relative w-64 h-64 sm:w-72 sm:h-72 md:w-96 md:h-96 transition-transform duration-700"
+            className="relative w-64 h-64 sm:w-72 sm:h-72 md:w-96 md:h-76 transition-transform duration-700"
             style={{
               transformStyle: "preserve-3d",
               transform: flippedCard2 ? "rotateY(180deg)" : "rotateY(0deg)",
@@ -96,7 +99,7 @@ export default function AssessmentPuzzle({
             <div
               className="absolute inset-0 flex items-center justify-center shadow-2xl"
               style={{
-                backgroundColor: card2.color,
+                backgroundColor: card2.colorcardbg,
                 backfaceVisibility: "hidden",
                 clipPath: window.innerWidth >= 768 ?
                   "polygon(8% 0, 100% 0, 100% 100%, 8% 100%, 0 50%)" :
@@ -112,7 +115,7 @@ export default function AssessmentPuzzle({
 
             {/* BACK */}
             <div
-              className="absolute inset-0 flex items-center justify-center bg-white shadow-2xl px-6"
+              className="absolute  inset-0 flex items-center justify-center bg-white shadow-2xl px-6 border-4 border-[#fac570]"
               style={{
                 transform: "rotateY(180deg)",
                 backfaceVisibility: "hidden",
@@ -120,10 +123,11 @@ export default function AssessmentPuzzle({
                   "polygon(8% 0, 100% 0, 100% 100%, 8% 100%, 0 50%)" :
                   "none",
                 borderTopRightRadius: "1.5rem",
+                borderColor:"#fac570",
                 borderBottomRightRadius: "1.5rem",
               }}
             >
-              <p className="text-sm sm:text-base md:text-lg text-center text-slate-700">
+              <p className="text-sm sm:text-base md:text-lg text-slate-700">
                 {card2.description}
               </p>
             </div>

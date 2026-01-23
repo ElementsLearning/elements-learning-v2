@@ -12,49 +12,93 @@ import FlipCards from "../ScienceSection/Trainings/FlipCard";
 import { color } from "framer-motion";
 import AssessmentPuzzle from "@/components/custom/AssessmentPuzzle";
 
-const assessmentpoint = [{
-  title: "1. Assessment for Learning (AfL)",
-  description:"Real-time strategies that help teachers understand how students are learning during the lesson and adjust instruction immediately.",
-  color: "#9FD5B5",
-},
-{
-  title:"2. Learning for Mastery (LfM)",
-  description:"A structured approach that ensures children fully understand essential concepts before moving forward, strengthening long-term retention and confidence.",
-  color: "#9FD8EB",
-}]
-
 // Color aur Images dono eik hi object mein
 const sectionConfig: Record<string, {
-  color: string;
+  themeColor: string;
+
+  card1: {
+    bg: string;
+    border: string;
+  };
+
+  card2: {
+    bg: string;
+    border: string;
+  };
+
   holisticImage: string;
   trackingImage: string;
   classname?: string;
 }> = {
   Math: {
-    color: "#FCBA42",
+    themeColor: "#FCBA42",
+
+    card1: {
+      bg: "#FCBA42",
+      border: "#FBBA42",
+    },
+    card2: {
+      bg: "#FFE4A3",
+      border: "#FFE4A3",
+    },
+
     holisticImage: "/assessment/goals/math.png",
     trackingImage: "/assessment/tracking/math.png",
-    classname: "size-full object-contain scale-125"
+    classname: "size-full object-contain scale-125",
   },
+
   Science: {
-    color: "#55088C50",
+    themeColor: "#55088C50",
+
+    card1: {
+      bg: "#55088C50",
+      border: "#55088C50",
+    },
+    card2: {
+      bg: "#ccc5d1",
+      border: "#ccc5d1",
+    },
+
     holisticImage: "/assessment/goals/science.png",
     trackingImage: "/assessment/tracking/science.png",
-    classname: "size-full object-cover"
+    classname: "size-full object-cover",
   },
+
   Language: {
-    color: "#307F0150",
+    themeColor: "#307F0150",
+
+    card1: {
+      bg: "#307F0150",
+      border: "#307F0150",
+    },
+    card2: {
+      bg: "#CFE6C5",
+      border: "#307F01",
+    },
+
     holisticImage: "/assessment/goals/language.png",
     trackingImage: "/assessment/tracking/language.png",
-    classname: "size-full object-cover"
+    classname: "size-full object-cover",
   },
+
   Ece: {
-    color: "#DA037F50",
+    themeColor: "#DA037F50",
+
+    card1: {
+      bg: "#DA037F50",
+      border: "#DA037F50",
+    },
+    card2: {
+      bg: "#F8C1E0",
+      border: "#DA037F",
+    },
+
     holisticImage: "/assessment/goals/ece.png",
     trackingImage: "/assessment/tracking/ece.png",
-    classname: "size-full object-cover"
-  }
-}
+    classname: "size-full object-cover",
+  },
+};
+
 
 export const AssessmentsContent = ({ 
     section = "Math"
@@ -79,21 +123,26 @@ export const AssessmentsContent = ({
         </p>
       </div>
       <AssessmentPuzzle
-              card1={{
-                title: "1. Assessment for Learning (AfL)",
-                description: "Real-time strategies that help teachers understand how students are learning during the lesson and adjust instruction immediately.",
-                color: "#9FD5B5"
-              }}
-              card2={{
-                title: "2. Learning for Mastery (LfM)",
-                description: "A structured approach that ensures children fully understand essential concepts before moving forward, strengthening long-term retention and confidence.",
-                color: "#9FD8EB"
-              }}
-            />
+  card1={{
+    title: "1. Assessment for Learning (AfL)",
+    description:
+      "Real-time strategies that help teachers understand how students are learning during the lesson and adjust instruction immediately.",
+    colorcardbg: config.card1.bg,
+    colorcardborder: config.card1.border,
+  }}
+  card2={{
+    title: "2. Learning for Mastery (LfM)",
+    description:
+      "A structured approach that ensures children fully understand essential concepts before moving forward, strengthening long-term retention and confidence.",
+    colorcardbg: config.card2.bg,
+    colorcardborder: config.card2.border,
+  }}
+/>
+
 
       <CustomAccordion
         containerClass={"w-full"}
-        color={config.color}
+        color={config.themeColor}
         type="multiple"
         items={[
           {
@@ -103,7 +152,7 @@ export const AssessmentsContent = ({
               <div className="py-2 xs:py-4 md:py-6 lg:py-8">
                 <div className="flex flex-cols sm:flex-row gap-2">
                   <SlidingDiv direction={"left"} className="flex-[3_0_0] flex flex-col p-4 md:p-8 lg:p-10 xl:p-12 gap-4 lg:gap-6 xl:gap-8 text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl bg-[#F3EEE8]">
-                    <h3 className={`text-left text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl text-[${config.color}] font-bold`}>
+                    <h3 className={`text-left text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl text-[${config.themeColor}] font-bold`}>
                       Traditional education often focuses only on intellectual growth, but at Elements Learning, we go further. Every grade level has subgoals organized under four tiers, covering intellectual, practical, and cross-subject skills.
                     </h3>
                     <p>Through our Project-Based Learning (PBL) Blueprints, students engage with concepts in ways that connect academic learning to real-world applications. This approach ensures students develop the full spectrum of skills and understanding, not just what is tested on paper.</p>

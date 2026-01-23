@@ -138,6 +138,17 @@ export const Clients = () => {
             Khudi Institute
           </p>
         </div>
+
+        <div className="w-24 sm:w-44 md:w-64 lg:w-72 flex flex-col items-center justify-center mx-4 sm:mx-6 md:mx-8 lg:mx-10 px-2 sm:px-4">
+          <img
+            src="/clients/mydf.png"
+            alt="Elementary"
+            className="h-16 sm:h-20 md:h-24 lg:h-30 xl:h-48"
+          />
+          <p className="mt-2 text-sm sm:text-base text-center font-medium">
+            Muhammad Yousaf Development Foundation
+          </p>
+        </div>
       </Marquee>
     </section>
   );

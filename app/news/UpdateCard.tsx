@@ -1,7 +1,7 @@
 import { SlidingDiv } from "@/components/custom/SlidingDiv"
 import { Update } from "@/constants/update"
 
-export const UpdateCard: React.FC<Update> = ({src, content, title}) => {
+export const UpdateCard: React.FC<Update> = ({src, content, title, date}) => {
 
   return (
     <SlidingDiv
@@ -21,6 +21,9 @@ export const UpdateCard: React.FC<Update> = ({src, content, title}) => {
   <div className="flex flex-col flex-1 gap-4 p-8 md:p-6 lg:p-6 xl:p-10 items-start">
     <p className="text-sm md:text-base lg:text-lg xl:text-xl font-bold">
       {title}
+    </p>
+    <p>
+      {date}
     </p>
     <p className="text-xs md:text-sm lg:text-base">
       {content}
